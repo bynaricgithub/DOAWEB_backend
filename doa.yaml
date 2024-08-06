@@ -1,8 +1,9 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: doa-deployment
-  namespace: allagents-1
+  namespace: doa
 spec:
   selector:
     matchLabels:
@@ -13,48 +14,38 @@ spec:
       labels:
         app: doa
     spec:
-      affinity:
-        nodeAffinity:
-          requiredDuringSchedulingIgnoredDuringExecution:
-            nodeSelectorTerms:
-            - matchExpressions:
-              - key: "eks.amazonaws.com/nodegroup"
-                operator: In
-                values: ["workers-t3-medium"]
       containers:
       - name: pods-doa-deployment
-        image: 056121157689.dkr.ecr.ap-south-1.amazonaws.com/doa:latest
+        image: localhost:32000/doa:latest
         imagePullPolicy: Always
         resources:
           requests:
-            memory: "0.5Gi"
-            cpu: "500m"
+            memory: "1Gi"
+            cpu: "1000m"
           limits:
-            memory: "0.8Gi"
-            cpu: "800m"
+            memory: "1.8Gi"
+            cpu: "1800m"
         volumeMounts:
-         - name: tkiet-production-data
+         - name: doa-production-data
            mountPath: "/www/public/data"
         env:
         - name: PROVISIONER_NAME
-          value: efs-storage
+          value: ksemin.in/nfs
         - name: NFS_SERVER
-          value: 192.168.224.128
+          value: 92.204.134.92
         - name: NFS_PATH
-          value: /T01folder
+          value: /
       volumes:
-      - name: tkiet-production-data
+      - name: doa-production-data
         nfs:
-          server: 192.168.224.128
-          path: /
+          server: 92.204.134.92
+          path: /data/apps/doa
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: doa-service
-  namespace: allagents-1
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    name: doa-service
+    namespace: doa
 spec:
   selector:
     app: doa
@@ -64,17 +55,43 @@ spec:
       name: https
       port: 80
       targetPort: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: doa-in-ingress
+ namespace: doa
+ annotations:
+   cert-manager.io/cluster-issuer: letsencrypt
+spec:
+ ingressClassName: public
+ tls:
+ - hosts:
+   - doa.bynaricexam.com
+   secretName: doa-in-ingress-tls
+ rules:
+ - host: doa.bynaricexam.com
+   http:
+     paths:
+     - backend:
+         service:
+           name: doa-service
+           port:
+             number: 80
+       path: /
+       pathType: Prefix
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
   name: doa-hpa
-  namespace: allagents-1
+  namespace: doa
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
     name: doa-deployment
   minReplicas: 1
-  maxReplicas: 2
+  maxReplicas: 10
   targetCPUUtilizationPercentage: 70
