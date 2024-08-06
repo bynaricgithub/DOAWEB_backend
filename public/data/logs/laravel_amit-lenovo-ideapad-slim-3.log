@@ -116,3 +116,28 @@ Could not open input file: ./vendor/bin/rr
 #18 /home/amit/Documents/DOA WEB/DOAWEB_backend/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #19 {main}
 "} 
+[2024-08-06 13:19:38] production.ERROR: Command "octane:statrt" is not defined.
+
+Did you mean one of these?
+    migrate:status
+    octane:install
+    octane:reload
+    octane:start
+    octane:status
+    octane:stop {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"octane:statrt\" is not defined.
+
+Did you mean one of these?
+    migrate:status
+    octane:install
+    octane:reload
+    octane:start
+    octane:status
+    octane:stop at /home/amit/Documents/DOA WEB/DOAWEB_backend/vendor/symfony/console/Application.php:737)
+[stacktrace]
+#0 /home/amit/Documents/DOA WEB/DOAWEB_backend/vendor/symfony/console/Application.php(266): Symfony\\Component\\Console\\Application->find()
+#1 /home/amit/Documents/DOA WEB/DOAWEB_backend/vendor/symfony/console/Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/amit/Documents/DOA WEB/DOAWEB_backend/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/amit/Documents/DOA WEB/DOAWEB_backend/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(155): Illuminate\\Console\\Application->run()
+#4 /home/amit/Documents/DOA WEB/DOAWEB_backend/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
