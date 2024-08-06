@@ -1,0 +1,5291 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+*/ #imagemain {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 12%;
+}
+
+*/ #paddingForContainerAboutPage {
+  padding: 10px 98px 40px 114px;
+}
+
+a.bynaricLink {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  height: 100%;
+  overflow-x: hidden;
+  top: 0;
+  width: 100%;
+}
+
+button#back-to-up {
+  background: orange;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+button.bg-white.navbar-toggler.collapsed {
+  border: 1px solid;
+}
+
+div#back a.nav-link {
+  color: #fff;
+  font-size: 1em;
+  padding-left: 20px;
+}
+
+h2.head-text {
+  color: #000000;
+  font-size: 1.76em;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+i.fas.fa-angle-double-right.iconsarrow {
+  color: #a4a4a4;
+  font-size: 11px;
+  padding: 0;
+}
+
+li.lidt {
+  margin-bottom: 36px;
+}
+
+li.lidt a {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  width: 100%;
+}
+
+.modal-dialog {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+}
+
+span.names {
+  color: white;
+  display: flex;
+  font-size: 12px;
+  margin: 0;
+  padding-top: 8px;
+  justify-content: center;
+  text-align: center;
+}
+
+span.names1 {
+  color: #cbdccb;
+  color: #e5e5e5;
+  display: flex;
+  font-size: 11px;
+  margin: 0;
+  padding-top: 0;
+  justify-content: center;
+}
+
+span.names2 {
+  color: #cbdccb;
+  display: flex;
+  font-size: 12px;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+span.names3 {
+  color: #cbdccb;
+  display: flex;
+  font-size: 12px;
+  margin: 0;
+  justify-content: center;
+}
+
+table.table.table-bordered.region-table thead.thead-dark th {
+  background: #3c699dc9;
+  color: #fff;
+  text-align: center;
+}
+
+table.table.table-borderless {
+  font-size: 1.07em;
+  margin: 0;
+}
+
+td.htable {
+  padding: 21px;
+}
+
+th.tbl_heading,
+.help th.htabletitl {
+  background: #294a70;
+  border: 1px solid #dddddd;
+  color: #fff;
+  padding: 7px;
+  text-align: left;
+}
+
+#back {
+  background-color: #5378a2;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
+#back1 {
+  background-color: #da9938;
+  padding-bottom: 9px;
+  padding-top: 9px;
+}
+
+#dropdownMenuButton1 {
+  border-radius: 35px;
+}
+
+#google_translate_element {
+  margin-top: -3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#imagemain {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 11%;
+}
+
+#imagemain1 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 650px;
+  padding-top: 25px;
+}
+
+#imageMainHomePage {
+  background: linear-gradient(
+    90deg,
+    rgba(83, 120, 162, 0.7598389697675946) 0%,
+    rgba(9, 9, 121, 0.7682423311121324) 35%,
+    rgb(4 124 149 / 78%) 100%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#myBtn {
+  color: red;
+  cursor: default;
+}
+
+#paddingForContainer {
+}
+
+#paddingForContainerAboutPage {
+  padding: 10px 88px 40px 100px;
+}
+
+#paddingForContainerMediaPage {
+  padding: 10px 101px 60px 104px;
+}
+
+#paddingForproContainer {
+  padding: 195px 60px 60px;
+}
+
+#zoomtext {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.addpadding {
+  margin-bottom: 15px;
+}
+
+.addpadding img.img-fluid {
+  border-radius: 50%;
+  width: 120px;
+}
+
+.all-cricular {
+  color: red;
+  font-size: small;
+  margin: 0 20px 0 0;
+  float: right;
+}
+
+.all-cricular a {
+  color: red;
+  padding: 8px 0 0;
+  display: block;
+}
+.back-btn {
+  padding: 6px 10px;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.back-to-top {
+  bottom: 25px;
+  display: none;
+  position: fixed;
+  right: 25px;
+}
+
+.backArrow {
+  font-size: 0.76em;
+  padding-right: 3px;
+}
+
+.backbuttoncolor {
+  background-color: #1f4f86;
+  border-radius: 0;
+}
+
+.backgroundColorCardHeader {
+  background: #e4e4e4;
+  border-radius: 0;
+  color: #000;
+  margin: -1px;
+  padding: 10px;
+  text-align: center;
+}
+
+.BadgeColor {
+  background-color: #cccccc;
+  border-radius: 0;
+  color: #3c5571;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.bars {
+  display: flex;
+  font-size: 2.92em;
+  margin-left: 50px;
+}
+
+.borderforcard {
+  border-color: white;
+  border-radius: 0;
+}
+
+.borderforcard1 {
+  border: 2px solid #faaf3b;
+  border-color: #faaf3b;
+  border-radius: 0;
+}
+
+.borderRadiusCaptcha {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.buttonclor {
+  background-color: #5378a2;
+}
+
+.caption-container {
+  background-color: #222;
+  color: white;
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.captionsfonts {
+  color: #cbdccb;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.card .text {
+  height: 100px;
+}
+
+.card-body.removePadding.p-5 {
+  font-size: 1.07em;
+}
+
+.card-button {
+  background-color: #0d6efd;
+}
+
+.card-button.btn:hover {
+  opacity: 0.8;
+}
+
+.card-header {
+  background-color: #ced6de;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 12px;
+}
+
+.card-label {
+  font-size: 1.15em;
+  padding-top: 20px;
+}
+
+.card-text {
+  font-size: 1.15em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.card.border.border-light .overflow-auto {
+  overflow: auto;
+  padding: 0;
+}
+
+.carousel-control-next1,
+.carousel-control-prev1 {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 3vh;
+  top: 35%;
+  transform: translateY(-50%);
+  width: 3vh;
+}
+
+.closeButton {
+  background-color: #5378a2;
+  border-radius: 0;
+  font-weight: 500;
+}
+
+.colorcontact {
+  color: #3c5571;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+
+.colorcontact1 {
+  color: #000;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+
+.colornone {
+  background-color: transparent;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.contactTable td:nth-child(1) {
+  background-color: #ccc;
+  color: #102134;
+  font-size: 1em;
+  font-weight: 500;
+  width: 13%;
+}
+
+.contactTable th {
+  color: #000;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.container-fluid.footerContainerwidth ul {
+  background: #3b4856;
+  margin-top: -8px;
+  padding: 10px 0;
+}
+
+.customLinkStyle:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.deskcolor {
+  color: #135685;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.DirectorDeskColor {
+  background-color: rgb(204 204 204);
+}
+
+.directoreDesk .card-header {
+  background: #faaf3b;
+  border-radius: 4px;
+  color: #000;
+  margin: -1px;
+  padding: 10px 0 0;
+  text-align: center;
+}
+
+.dropdown-item {
+  color: white;
+  font-size: 1em;
+}
+
+.dropdown-menu {
+  background-color: #5378a2;
+  border-radius: 0;
+}
+
+.fa-bars {
+  color: #ffffff;
+}
+
+.fas {
+  color: #676767;
+}
+
+.feedbacklink {
+  color: #294a70;
+  font-size: 1.15em;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.fixed-footer {
+  color: #fff;
+  position: relative;
+}
+
+.fixed-header {
+  background-color: #ffffff;
+  color: #ffffff;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.fontForDesk {
+  color: white;
+  font-size: 13px;
+}
+
+.fontForHeader {
+  color: #000000;
+  font-size: 1.38em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.fontForHeaderGboard {
+  color: #3c5571;
+  font-size: 1.23em;
+  font-weight: 500;
+  margin-bottom: -1px;
+}
+
+.fontForHeaderText {
+  color: #5378a2;
+  font-size: 1.23em;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.fontForHeptext {
+  font-size: 1.15em;
+  font-weight: 500;
+}
+
+.fontfornav {
+  font-size: 0.92em;
+  font-size: 14px;
+}
+
+.fontForprofile {
+  color: #000000;
+  font-size: 1em;
+}
+
+.fontp {
+  color: #000000;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.fontqualitypolicy {
+  color: #5378a2;
+  font-size: 1.23em;
+}
+
+.fontSpan {
+  color: #223e5d;
+  font-size: 1.23em;
+  font-weight: 500;
+}
+
+.footerclor {
+}
+
+.footerContainerwidth {
+  background: #032d5e;
+  padding: 8px 0 10px;
+  width: 100%;
+}
+
+.footerContainerwidth li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.footerContainerwidth li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footertext1 {
+  color: #676767;
+  font-size: 0.92em;
+}
+
+.form-control {
+  border-color: #ddd;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: #4aba70;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.goog-te-combo {
+  background-color: #5378a2;
+  border-radius: 30px;
+  color: white;
+  height: 35px;
+  padding: 6px;
+  width: 188px;
+}
+
+.height {
+  height: 100vh;
+}
+
+.heightCarousalimagegallery {
+  height: 395px;
+}
+
+.heightCertCard {
+  height: 400px;
+}
+
+.heightforImg {
+  max-width: 100%;
+  margin: 25px auto;
+}
+
+.heightstudentcard {
+  height: 200px;
+}
+
+.heighttableDiv .d-flex.p-1 {
+  border-bottom: 1px solid #cdc9c9;
+  margin: auto 0 0;
+  line-height: 32px;
+}
+
+.heighttableDiv td {
+  border: 1px solid #dedede;
+}
+
+.heightWidth {
+  height: 120px;
+  padding: 25px;
+  width: 120px;
+}
+
+.heightWidthLastDiv {
+  height: 50px;
+  padding: 5px;
+  width: 120px;
+}
+
+.iconsarrow {
+  font-size: 0.92em;
+}
+
+.ImagesPoliticians {
+  padding-bottom: 10px;
+}
+
+.innerCarousalImg img {
+  height: 380px;
+  object-fit: cover;
+}
+
+.lastcardImage {
+  background-color: #606d8d;
+  height: 160px;
+}
+
+.lastDiv .Positionlanguage{
+  float: right;
+}
+
+.latest-update {
+  background: #faaf3b;
+  height: auto;
+  padding-top: 1px;
+}
+
+.latest-update h5 {
+  font-size: 12px;
+}
+
+.link {
+  display: flex;
+  gap: 15px;
+  padding: 10px 15px;
+  transition: all 0.5s;
+}
+
+.link-primary {
+  color: #3c5571 !important;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: left;
+  padding: 6px 0;
+}
+
+.link-primary1 {
+  color: #294a70;
+  font-size: 2.92em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link:hover {
+  background: lightskyblue;
+  color: #000;
+  color: red;
+  transition: all 0.5s;
+}
+
+.linkcolor {
+  color: #294a70;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+
+.linktextcolor {
+  color: #294a70;
+  font-size: 1.61em;
+  font-weight: 500;
+}
+
+.listRemoveborder {
+  border: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.login-form {
+  margin: 0 auto;
+}
+
+.login-form .avatar {
+  border-radius: 50%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  height: 100px;
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 100px;
+  z-index: 9;
+}
+
+.login-form .avatar i {
+  font-size: 4.76em;
+}
+
+.login-form .btn {
+  background-color: #faaf3b;
+  border: none;
+  line-height: normal;
+}
+
+.login-form .btn,
+.login-form .form-control {
+  border-radius: 7px;
+  min-height: 40px;
+  transition: all 0.5s;
+}
+
+.login-form .btn:focus,
+.login-form .btn:hover {
+  background: #faaf3b;
+}
+
+.login-form .captcha {
+  margin: 15px 0;
+}
+
+.login-form .captcha .captcha-form .captcha-refresh {
+  background-color: #faaf3b;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  color: #eee;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+}
+
+.login-form .captcha .preview {
+  color: #000000;
+  font-size: 1.69em;
+  height: 40px;
+  letter-spacing: 10px;
+  line-height: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.login-form .captcha .preview span {
+  display: inline-block;
+  user-select: none;
+}
+
+.login-form .checkbox-inline {
+  float: left;
+}
+
+.login-form .close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.login-form .form-group {
+  margin-bottom: 20px;
+}
+
+.login-form form {
+  background: #fff;
+  border-radius: 1px;
+  color: #434343;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.login-form h4 {
+  font-size: 1.69em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form input[type="checkbox"] {
+  margin-top: 2px;
+}
+
+.loginbutton {
+  background-color: #256198;
+  border-radius: 0;
+  color: #fff;
+  font-size: 0.84em;
+  font-size: 1.15em;
+  font-weight: 500;
+  width: 100px;
+}
+
+.logo {
+  font-size: 2.3em;
+}
+
+.mainContainerwidth {
+}
+
+.marginDiv {
+  margin-top: -10px;
+}
+
+.marginFont {
+  font-size: 1.23em;
+  margin: 16px 6px 0;
+}
+
+.marginFont img.img-fluid {
+  width: 122px;
+}
+
+.marginForDivConatiner {
+  margin-bottom: 5px;
+  margin-top: 2px;
+  padding-right: 12px;
+}
+
+.marginLSpan {
+  margin-left: 10px;
+}
+
+.marginMarquee {
+  margin-right: 20px;
+}
+
+.marginTopCaptcha {
+  margin-top: 10px;
+}
+
+.marqueeFont {
+  color: #606060;
+  font-size: 0.92em;
+}
+
+.marqueeFont a {
+  color: black;
+  font-size: 11px;
+  font-weight: 500;
+  padding-top: 10px;
+  text-decoration: none;
+}
+
+.maxwidthcard {
+  height: 155px;
+  max-width: 540px;
+}
+
+.member-photos li {
+  display: inline-block;
+  text-align: center;
+}
+
+.member-photos ul {
+  display: flex;
+  padding: 0;
+}
+
+.modal-pdf-content {
+  height: 90vh;
+}
+
+.navbar-toggler {
+  border: 1px solid #ffffff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: 0;
+}
+
+.NavContainerwidth {
+}
+
+.navText {
+  color: white;
+}
+
+.navText:hover {
+  color: #faaf3b;
+  font-weight: bolder;
+}
+
+.newcaroselbutton {
+  border: 0;
+  border-radius: 0;
+  height: 3vh;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3vh;
+}
+
+.newimageclass {
+  position: relative;
+  width: 100%;
+}
+
+.newimageclass .btn {
+  -ms-transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.23em;
+  left: 48%;
+  position: relative;
+  text-align: center;
+  top: -15%;
+  transform: translate(-35%, -120%);
+}
+
+.newimageclass img {
+  height: 300px;
+  width: 100%;
+}
+
+.news {
+  background: #fff7f7;
+  border-bottom: 1px solid #faaf3b;
+  height: 33px;
+  margin: 4px;
+  width: 88%;
+  padding: 6px 0;
+  display: flex;
+  border-radius: 2px;
+}
+
+.news button.btn{
+  width: 24px;
+  height: 24px;
+  margin: -2px 2px 0 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.news button.btn:hover{
+  background: transparent;
+}
+.news-content p {
+  color: #000;
+  display: inline;
+  margin-right: 41px;
+}
+
+.newtag {
+  color: #000000;
+}
+
+.next {
+  border-radius: 3px 0 0 3px;
+  right: 0;
+}
+
+.next,
+.prev {
+  -webkit-user-select: none;
+  border-radius: 0 3px 3px 0;
+  color: white;
+  cursor: pointer;
+  font-size: 1.53em;
+  font-weight: bold;
+  margin-top: -50px;
+  padding: 16px;
+  position: absolute;
+  top: 65%;
+  user-select: none;
+  width: auto;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 0.92em;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.officer-details p.card-text {
+  font-size: 14px;
+}
+
+.officer-img {
+  height: 110px;
+  margin: 10px;
+  width: 110px;
+}
+
+.OnlineProceduret {
+  text-align: left;
+}
+
+.OnlineProceduret h6 {
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: left;
+}
+
+.otherlinkcolor {
+  color: #051320;
+  font-size: 1.15em;
+  font-weight: 500;
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.paddinfForClick {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.paddingAboutMsbte {
+  border-color: white;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px -1px #0b0b0b;
+  margin: 2% auto;
+}
+
+.paddingForImg {
+  margin: auto;
+}
+
+.paddingFornewSpan {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paddingforscroll {
+  padding-left: 30px;
+}
+
+.paddingforspan {
+  padding-left: 7px;
+}
+
+.paddingSocialMedia {
+  padding-top: 5px;
+}
+
+.paddingTopImg {
+  padding-top: 30px;
+}
+
+.paddingTwoImg {
+}
+
+.phoneLinkColor {
+  color: #3c5571;
+  text-decoration: none;
+}
+
+.react-multiple-carousel__arrow {
+  min-height: 25px;
+  min-width: 28px;
+}
+
+.react-multiple-carousel__arrow--left {
+  left: calc(0% + 1px);
+}
+
+.react-multiple-carousel__arrow--right {
+  right: calc(0% + 1px);
+}
+
+.region-table img {
+  height: 100px;
+  min-width: 80px;
+}
+
+.region-table td {
+  color: #000;
+  font-size: 14px!important;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: baseline;
+}
+
+.region-table td:nth-child(2) {
+  width: auto;
+}
+
+.RemoveAllpadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.RemovemarginCaptcha {
+  margin-bottom: 0;
+}
+
+.removePadding {
+  border-radius: 5px;
+}
+
+.removepadding {
+  padding: 0;
+}
+
+.removePaddingicons {
+}
+
+.Removerborder {
+  align-items: center;
+  background: #fff0;
+  border: 0;
+  border-radius: 0;
+}
+
+.removetextdecoration {
+  color: #efe9eb;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.search .fa-search {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  top: 11px;
+  top: 12px;
+}
+
+.search input {
+  border: 2px solid #d6d4d4;
+  border-radius: 35px;
+  font-size: 0.92em;
+  height: 30px;
+  width: 188px;
+}
+
+.search input:focus {
+  border: 2px solid blue;
+  box-shadow: none;
+}
+
+.search1 input {
+  background: #5378a2;
+  border-color: #5378a2;
+  border-radius: 35px;
+  height: 40px;
+  text-indent: 25px;
+}
+
+.section {
+  margin: 0 auto;
+  /*! max-width: 1200px; */
+}
+
+.serachbarbackground {
+  color: #5378a2;
+}
+
+.serv li {
+  font-size: 1.23em;
+  padding-top: 20px;
+}
+
+.setHeightCard {
+  background-color: white;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  height: 580px;
+}
+
+.sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+  transition: all 0.5s;
+  width: 200px;
+}
+
+.slick-list {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-next,
+.slick-prev {
+  font-size: 1.8rem;
+  font-size: 2.8rem;
+  position: absolute;
+  top: 70%;
+}
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-slider {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-touch-action: pan-y;
+  -ms-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  touch-action: pan-y;
+  user-select: none;
+}
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  display: block;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-track:after,
+.slick-track:before {
+  content: "";
+  display: table;
+}
+
+.slick-vertical .slick-slide {
+  border: 1px solid transparent;
+  display: block;
+  height: auto;
+}
+
+.slide {
+  transition: filter 0.4s;
+}
+
+.sliderwidth {
+  margin: 20px auto;
+}
+
+.sliderwidth .react-multi-carousel-list .react-multiple-carousel__arrow--left {
+  margin-left: -3%;
+  z-index: 9;
+}
+
+.sliderwidth .react-multi-carousel-list .react-multiple-carousel__arrow--right {
+  margin-right: -3%;
+  z-index: 9;
+}
+
+.sliderwidth .react-multi-carousel-list li div {
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 15px 0;
+}
+
+.sliderwidth .react-multi-carousel-list li img {
+  margin: auto;
+  display: block;
+  mix-blend-mode: color-burn;
+  max-height: 14vh;
+  position: relative;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  max-width: -moz-available;
+  width: 85%;
+}
+
+.social-media li {
+  display: inline;
+}
+
+.social-media li img.rounded-circle {
+  margin: 3px;
+  width: 20px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-size: 10px auto;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  height: 40px;
+  transition: border-color 0.3s;
+  width: 40px;
+  z-index: 1;
+}
+
+.table td,
+.table th {
+  color: #3c5571;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.table td:nth-child(2) {
+  font-size: 13px;
+  padding: 10px;
+  width: 100px;
+}
+
+.table th {
+  background-color: #e7e7e7;
+  font-size: 16px;
+}
+
+.table-section .card-header {
+  background: aliceblue;
+  border-radius: 0;
+  color: #12406a;
+  padding: 7px 0 0;
+  text-align: center;
+}
+
+.table-section.post {
+  padding-top: 15px;
+}
+
+.textColornew {
+  color: #195d8c;
+  font-size: 1.38em;
+  font-weight: 500;
+}
+
+.textDecoMigr {
+  color: #5378a2;
+  text-decoration: underline;
+}
+
+.textDecortaionLinks {
+  color: #000000;
+  text-decoration: none;
+}
+
+.textForFirstLogo {
+  color: #000000;
+  font-size: 1.38em;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.ticker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title {
+  background: #faaf3b;
+  height: 34px;
+  position: relative;
+  width: 10%;
+  margin: auto;
+}
+
+.title h5 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  margin: 8px 0;
+  padding: 0;
+}
+
+.top_section {
+  align-items: center;
+  display: flex;
+  padding: 20px 15px;
+}
+
+.topright {
+  display: flex;
+  font-size: 1.38em;
+  justify-content: end;
+  margin-bottom: 5px;
+  right: 16px;
+  top: 8px;
+}
+
+.updatedText {
+  padding-right: 10px;
+}
+
+.viewprofile:hover {
+  color: #fff;
+}
+.viewprofile {
+  color: #cbdccb;
+  font-size: 0.84em;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.widthImage {
+  width: 96%;
+  padding: 15px;
+}
+
+.widthTable td:nth-child(1) {
+  width: 13%;
+}
+
+.wrap {
+  margin: 0 auto;
+  /*! width: 100%; */
+}
+
+.wrap .header {
+  color: #ffffff;
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
+
+.youtube-slider .swiper-slide {
+  align-items: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+*/ .FontForMarquee,
+.FontForMarquee {
+  color: #3c5571;
+  font-size: 1.15em;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+[dir="rtl"] .slick-slide,
+.login-form .forgot-link {
+  float: right;
+}
+
+a.bynaricLink:hover,
+.footerText:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+div#im-slider .innerCarousalImg img,
+.embed-responsive-item,
+.heightprofile,
+.innerCarousalImgMedia img {
+  height: 380px;
+}
+
+#more,
+.goog-te-banner-frame.skiptranslate,
+.mySlides,
+.news-content.marquee-container .overlay,
+.slick-arrow.slick-hidden,
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+#pageDropDown,
+.dropdown-menu.open.show {
+  background-color: white;
+  color: black;
+}
+
+.active,
+.contactFont {
+  color: #000;
+}
+
+.admin-container,
+.login-form .captcha .captcha-form {
+  display: flex;
+}
+
+.backgroundColorCardHeaderGborad,
+.backgroundColorCircular,
+.backgroundImpLink,
+.contactTable th:nth-child(1) {
+  background-color: #ccc;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.video-carousel-next,
+.video-carousel-prev {
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 3vh;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3vh;
+}
+
+.cursor,
+.slick-list.dragging {
+  cursor: pointer;
+}
+
+.fontForcert,
+.fontlink {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.fontForForm,
+.linkcolor1 {
+  color: #000000;
+  font-size: 1.07em;
+  font-weight: 500;
+}
+
+.footerImg,
+.marginCheckbox,
+.marginCircle,
+.marginforzoom {
+  margin-right: 5px;
+}
+
+.goog-te-gadget .goog-te-combo,
+.marginUl {
+  margin: 0;
+}
+
+.heightCarousal,
+.heightCarousalMedia,
+.innerCarousalImggallery {
+  height: 460px;
+}
+
+.heightgallery,
+.heighttableDiv {
+  height: 300px;
+  padding: 0 10px;
+}
+
+.help td,
+.paddingSpan {
+  padding: 5px;
+}
+
+.icon,
+.link_text,
+.table-section .card-header h4 {
+  font-size: 1em;
+  padding: 6px 0;
+}
+
+.lastlink,
+.login-form a {
+  color: #4aba70;
+}
+
+.marginForcard,
+.removeBorder,
+.RemoverBorderRadius,
+.table-section .card {
+  border-radius: 0;
+}
+
+.OnlineProceduret li,
+.OnlineProceduret p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.RemoveText,
+.underline {
+  text-decoration: underline;
+}
+
+.search,
+.youtube-slider {
+  position: relative;
+}
+
+.slick-initialized .slick-slide,
+.slick-slide img {
+  display: block;
+}
+
+.slick-loading .slick-slide,
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-next,
+.youtube-slider .swiper-button-next {
+  right: 0;
+}
+
+.slick-prev,
+.youtube-slider .swiper-button-prev {
+  left: 0;
+}
+
+@media (max-width: 512px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.15em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #google_translate_element {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    top: 19px;
+  }
+
+  #paddingForContainer {
+    padding-top: 20px;
+  }
+
+  .addpadding {
+    padding: 20px 45px 0;
+  }
+
+  .addpadding img.img-fluid {
+    width: 52%;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 35%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .colorcontact {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .colorcontact1 {
+    color: #000;
+    font-size: 0.76em;
+    font-weight: 500;
+  }
+
+  .contactTable td:nth-child(1) {
+    background-color: #ccc;
+    color: #102134;
+    font-size: 0.53em;
+    font-weight: 500;
+    width: 13%;
+  }
+
+  .DescSizeFont {
+    color: #3c5571;
+    font-size: 0.76em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -20px;
+  }
+
+  .fontForForm {
+    color: #000000;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .form-label {
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 181px;
+  }
+
+  .HeadFontsize {
+    font-size: 1.69em;
+  }
+
+  .heightCarousal {
+    height: 295px;
+  }
+
+  .heighttableDiv {
+    height: 250px;
+  }
+
+  .iconsarrow {
+    font-size: 0.69em;
+    margin: 0;
+  }
+
+  .ImagesPoliticians {
+    display: flex;
+    padding-bottom: 10px;
+  }
+
+  .innerCarousalImg img {
+    height: 189px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 255px;
+  }
+
+  .lastDiv {
+    padding-left: 49px;
+    padding-top: 0;
+  }
+
+  .latest-update h5 {
+    color: #000000;
+    font-size: 9px;
+    margin: 6px 0;
+    padding-left: 7px;
+  }
+
+  .link-primary1 {
+    font-size: 1.15em;
+    text-decoration: none;
+  }
+
+  .linkcolor {
+    color: #294a70;
+    font-size: 1.07em;
+  }
+
+  .linktextcolor {
+    color: #294a70;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .marqueeFont {
+    color: #606060;
+    font-size: 0.69em;
+  }
+
+  .modal-title {
+    font-size: 1.15em;
+    letter-spacing: -1px;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .navbar-collapse {
+    align-items: center;
+    background-color: #0b5d8e;
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    background-color: #5378a2;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: -71px;
+    z-index: 999;
+  }
+
+  .officer-img {
+    height: 85px;
+    margin-top: -85px;
+    width: 84px;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.76em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingDivMainLogo {
+    padding-right: 0;
+    padding-top: 5px;
+  }
+
+  .RemoveWidth {
+    padding-bottom: 5px;
+    width: 151px;
+  }
+
+  .removrTablePadding {
+    padding: 0;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 51%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.69em;
+    font-weight: 500;
+  }
+
+  .table td:nth-child(2) {
+    padding: 10px;
+    width: 100px;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.69em;
+    padding: 5px;
+  }
+
+  .textColornew {
+    color: #1085d7;
+    font-size: 1em;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 33px;
+    position: relative;
+    text-align: center;
+    width: 14%;
+  }
+
+  span.news-scroll,
+  .logoImg,
+  .marginLSpan,
+  .paddingForImg,
+  .search,
+  .submenu,
+  .twologo,
+  .windowzoom {
+    display: none;
+  }
+
+  .copyright,
+  .counterlink,
+  .Positionlanguage {
+    justify-content: center;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .marginCard,
+  .marginForcard {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  div#back a.nav-link {
+    color: #fff;
+    font-size: 0.69em;
+    padding-left: 13px;
+  }
+
+  #paddingForContainer {
+    padding: 60px 0 32px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 55px 52px 29px 56px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 54px 43px 40px;
+  }
+
+  #paddingForproContainer {
+    padding: 135px 60px 120px;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .feedbacklink {
+    color: #294a70;
+    font-size: 0.92em;
+    font-weight: 500;
+  }
+
+  .fontForHeaderGboard {
+    color: #3c5571;
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: -1px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .HeadFontsize {
+    font-size: 1.69em;
+  }
+
+  .HeadFontsize1 {
+    font-size: 1.61em;
+  }
+
+  .link-primary {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .marginDiv {
+    margin-top: 0;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .navbar-toggler {
+    background-color: #5378a2;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: -57px;
+    z-index: 106;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 6px;
+    width: 79%;
+  }
+
+  .widthTable td:nth-child(1) {
+    width: 29%;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .marginLSpan,
+  .Positionlanguage img,
+  .submenu {
+    display: none;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 100%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1085px) {
+  span.names {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    font-size: 12px;
+    margin: 0;
+    padding-top: 4px;
+  }
+
+  #google_translate_element {
+    margin-top: -3px;
+    padding-left: 3px;
+    padding-right: 10px;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 16%;
+  }
+
+  #imageMainHomePage {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #paddingForContainer {
+    padding-bottom: 25px;
+    padding-left: 72px;
+    padding-right: 72px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 65px 40px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.46em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 7pt;
+    height: 24px;
+    padding: 3px;
+    width: 127px;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .iconsarrow {
+    font-size: 0.84em;
+    margin: 3px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 96px;
+  }
+
+  .link-primary {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.53em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.92em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    padding-left: 9px;
+    padding-top: 30px;
+  }
+
+  .search {
+    margin-left: -30px;
+    position: relative;
+  }
+
+  .search .fa-search {
+    font-size: 0.69em;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.69em;
+    height: 24px;
+    width: 120px;
+  }
+
+  .social-media li img.rounded-circle {
+    margin: 3px;
+    width: 13px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.69em;
+    font-weight: 700;
+    margin: 11px 0;
+    padding-left: 43px;
+  }
+
+  .widthforlogos {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1085px) and (max-width: 1200px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.61em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.61em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 4px;
+  }
+
+  #google_translate_element {
+    margin-top: -3px;
+    padding-left: 3px;
+    padding-right: 10px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.53em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 7pt;
+    height: 24px;
+    padding: 3px;
+    width: 143px;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .iconsarrow {
+    font-size: 0.84em;
+    margin: 3px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 118px;
+  }
+
+  .link-primary {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.53em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 82.6%;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.92em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    padding-left: 0;
+    padding-top: 30px;
+  }
+
+  .search {
+    margin-left: -11px;
+    position: relative;
+  }
+
+  .search .fa-search {
+    font-size: 0.69em;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.69em;
+    height: 24px;
+    width: 136px;
+  }
+
+  .social-media li img.rounded-circle {
+    margin: 3px;
+    width: 13px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.69em;
+    font-weight: 700;
+    margin: 11px 0;
+    padding-left: 43px;
+  }
+
+  .widthforlogos {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    margin: 0;
+    padding-top: 8px;
+  }
+
+  #google_translate_element {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 12%;
+  }
+
+  #paddingForContainer {
+    padding: 20px 14px 59px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 48px 84px 56px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 24px 84px 98px;
+  }
+
+  .fontForHeaderGboard {
+    color: #3c5571;
+    font-size: 1.07em;
+    font-weight: 500;
+    margin-bottom: -1px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.61em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 8pt;
+    height: 25px;
+    padding: 3px;
+    width: 145px;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 127px;
+  }
+
+  .paddingForImg {
+    padding-left: 18px;
+    padding-top: 25px;
+  }
+
+  .search .fa-search {
+    font-size: 0.76em;
+    position: absolute;
+    right: 10px;
+    top: 9px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 25px;
+    width: 157px;
+  }
+
+  .social-media ul {
+    padding-left: 1rem;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.92em;
+    padding: 5px;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.69em;
+    font-weight: 800;
+    margin: 12px 0;
+    padding-left: 40px;
+  }
+
+  .widthTable td:nth-child(1) {
+    width: 28%;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 0.92em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1330px) {
+  #paddingForContainer {
+    padding: 20px 84px 111px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 21px 78px 80px 71px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 21px 70px 80px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.61em;
+    font-weight: 500;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 150px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 131px;
+  }
+
+  .paddingForImg {
+    padding-left: 5px;
+    padding-top: 25px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 150px;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 9px 0;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1331px) and (max-width: 1360px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 14%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 82px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 6px 76px 45px 81px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.92em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -50px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.69em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 158px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 137px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 21px;
+  }
+
+  .modal-title {
+    font-size: 1.38em;
+    letter-spacing: -1px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 84%;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 158px;
+  }
+
+  .slick-next {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 74%;
+  }
+
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 80%;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 32px;
+    position: relative;
+    text-align: center;
+    width: 12%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 9px 0;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1440px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 14%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 82px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 6px 76px 45px 81px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.92em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .fas {
+    color: #676767;
+    margin: 0 10px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.69em;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 175px;
+  }
+  
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 153px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 21px;
+  }
+
+  .modal-title {
+    font-size: 1.38em;
+    letter-spacing: -1px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    width: 89%;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 171px;
+  }
+
+  .slick-next {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 74%;
+  }
+
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 80%;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 30px;
+    position: relative;
+    text-align: center;
+    width: 10%;
+  }
+
+  .title h5 {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1580px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 13%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 79px 40px 82px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 10px 84px 60px 80px;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 0.92em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 0.92em;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 186px;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.92em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 14px;
+  }
+
+  .modal-title {
+    font-size: 1.38em;
+    letter-spacing: -1px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 84.3%;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 186px;
+  }
+
+  .showDiv {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1581px) and (max-width: 1600px) {
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 13%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 84px 40px 87px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 10px 85px 60px 87px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 199px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 169px;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.92em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 11px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 84.5%;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 201px;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1660px) {
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 13%;
+  }
+
+  #paddingForContainer {
+    padding-bottom: 25px;
+    padding-left: 95px;
+    padding-right: 84px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 84px 40px 92px;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .colorcontact {
+    color: #3c5571;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .colorcontact1 {
+    color: #000;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .contactTable td:nth-child(1) {
+    background-color: #ccc;
+    color: #102134;
+    font-size: 1.15em;
+    font-weight: 500;
+    width: 13%;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 205px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 173px;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.07em;
+    font-size: 1em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 11px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 84.5%;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 30px;
+    width: 199px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1661px) and (max-width: 1800px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.07em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.92em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 13%;
+  }
+
+  #imageMainHomePage {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #paddingForContainer {
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 89px 30px 104px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 1.23em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .colorcontact {
+    color: #3c5571;
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  .colorcontact1 {
+    color: #000;
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  .contactTable td:nth-child(1) {
+    background-color: #ccc;
+    color: #102134;
+    font-size: 1.15em;
+    font-weight: 500;
+    width: 13%;
+  }
+
+  .FontForMarquee {
+    color: #3c5571;
+    font-size: 1.15em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .fontfornav {
+    font-size: 1em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 35px;
+    padding: 6px;
+    width: 232px;
+  }
+
+  .heightCarousal {
+    height: 531px;
+  }
+
+  .iconsarrow {
+    font-size: 1.07em;
+    margin: 3px;
+  }
+
+  .innerCarousalImg img {
+    height: 414px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 201px;
+  }
+
+  .link-primary {
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.07em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 6px;
+  }
+
+  .news {
+  }
+
+  .search .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.92em;
+    height: 35px;
+    width: 236px;
+  }
+
+  .section {
+    margin: 0 auto;
+    max-width: 1335px;
+  }
+
+  .social-media li img.rounded-circle {
+    margin: 3px;
+    width: 30px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .table td:nth-child(2) {
+    padding: 10px;
+    width: 117px;
+  }
+
+  .viewprofile {
+    color: #cbdccb;
+    font-size: 0.84em;
+    text-decoration: none;
+  }
+
+  .widthTable td:nth-child(1) {
+    width: 21%;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1891px) and (max-width: 1900px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.15em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.92em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.92em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 12%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 93px 40px 110px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 10px 93px 60px 111px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 1.07em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .colorcontact {
+    color: #3c5571;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .colorcontact1 {
+    color: #000;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .contactTable td:nth-child(1) {
+    background-color: #ccc;
+    color: #102134;
+    font-size: 1.15em;
+    font-weight: 500;
+    width: 13%;
+  }
+
+  .fontfornav {
+    font-size: 1.15em;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 35px;
+    padding: 6px;
+    width: 245px;
+  }
+
+  .heightCarousal {
+    height: 523px;
+  }
+
+  .iconsarrow {
+    font-size: 1.23em;
+    margin: 5px;
+  }
+
+  .innerCarousalImg img {
+    height: 461px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 207px;
+  }
+
+  .link-primary {
+    color: #3c5571;
+    font-size: 1.23em;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 15px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 23px;
+    margin: 5px;
+    width: 85%;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 1.23em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .search .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 1.23em;
+    height: 35px;
+    width: 246px;
+  }
+
+  .section {
+    margin: 0 auto;
+    max-width: 1544px;
+  }
+
+  .social-media li img.rounded-circle {
+    margin: 3px;
+    width: 32px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  .table td:nth-child(2) {
+    padding: 10px;
+    width: 111px;
+  }
+
+  .viewprofile {
+    color: #cbdccb;
+    font-size: 0.92em;
+    text-decoration: none;
+  }
+
+  .widthTable td:nth-child(1) {
+    width: 20%;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 1901px) and (max-width: 1925px) {
+  span.names {
+    text-align: center;
+  }
+
+  span.names1 {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 12%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 10px 94px 40px 113px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 10px 96px 60px 109px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    background: #7e7e7e;
+  }
+
+  .colorcontact1 {
+    color: #000;
+    font-size: 1.23em;
+    font-weight: 500;
+  }
+
+  .contactTable td:nth-child(1) {
+    background-color: #ccc;
+    color: #102134;
+    font-size: 1.15em;
+    font-weight: 500;
+    width: 13%;
+  }
+
+  .feedbacklink {
+    color: #294a70;
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  .fontfornav {
+    font-size: 14px;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 11pt;
+    height: 35px;
+    padding: 6px;
+    width: 250px;
+  }
+
+  .heightCarousal {
+    height: 538px;
+  }
+
+  .iconsarrow {
+    font-size: 1.23em;
+    margin: 5px;
+  }
+
+  .innerCarousalImg img {
+    height: 473px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 209px;
+  }
+
+  .link-primary {
+    color: #3c5571;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 1.23em;
+    font-weight: 500;
+    width: 100px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 6px;
+  }
+
+  .news {
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 1.23em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .search .fa-search {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 1.15em;
+    height: 35px;
+    width: 240px;
+  }
+
+  .section {
+    margin: 0 auto;
+    /*! max-width: 1584px; */
+  }
+
+  .social-media li img.rounded-circle {
+    margin: 3px;
+    width: 25px;
+  }
+
+  .table td:nth-child(2) {
+    padding: 10px;
+    width: 117px;
+  }
+
+  .viewprofile {
+    color: #cbdccb;
+    font-size: 0.84em;
+    text-decoration: none;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 1.15em;
+    font-weight: 500;
+  }
+
+  .colorcontact,
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 1em;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 367px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.07em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #paddingForContainer {
+    padding: 107px 45px 20px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 110px 40px 20px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 110px 40px 35px;
+  }
+
+  #paddingForproContainer {
+    padding: 135px 60px 32px;
+  }
+
+  .addpadding {
+    padding: 20px 40px 0;
+  }
+
+  .counterlink {
+    justify-content: center;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .fontForForm {
+    color: #000000;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .form-label {
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 150px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 169px;
+  }
+
+  .link-primary1 {
+    font-size: 1.15em;
+    text-decoration: none;
+  }
+
+  .linkcolor {
+    color: #294a70;
+    font-size: 1.07em;
+  }
+
+  .linktextcolor {
+    color: #294a70;
+    font-size: 1.07em;
+    font-weight: 500;
+  }
+
+  .marginFont {
+    font-size: 1.23em;
+    margin: 20px;
+  }
+
+  .marginForcard {
+    margin-bottom: 10px;
+  }
+
+  .modal-title {
+    font-size: 1.15em;
+    letter-spacing: -1px;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.69em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .RemoveWidth {
+    padding-bottom: 5px;
+    width: 127px;
+  }
+
+  .removrTablePadding {
+    padding: 0;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .textColornew {
+    color: #1085d7;
+    font-size: 1em;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 33px;
+    position: relative;
+    text-align: center;
+    width: 13%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.53em;
+    font-weight: 700;
+    margin: 8px 0;
+    padding-left: 7px;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 368px) and (max-width: 376px) {
+  #paddingForContainerAboutPage {
+    padding: 100px 40px 20px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 100px 40px 35px;
+  }
+
+  #paddingForproContainer {
+    padding: 135px 60px 34px;
+  }
+
+  .counterlink {
+    justify-content: center;
+  }
+
+  .iconsarrow {
+    font-size: 0.69em;
+    margin: 0;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.69em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 426px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.3em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 1em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #paddingForContainer {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 100px 60px 25px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 98px 49px 42px 52px;
+  }
+
+  #paddingForproContainer {
+    padding: 135px 60px 32px;
+  }
+
+  .addpadding {
+    padding: 0 15px;
+  }
+
+  .counterlink {
+    justify-content: center;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .iconsarrow {
+    font-size: 0.69em;
+    margin: 0;
+  }
+
+  .link-primary1 {
+    font-size: 1.15em;
+    text-decoration: none;
+  }
+
+  .linkcolor {
+    color: #294a70;
+    font-size: 1.07em;
+  }
+
+  .linktextcolor {
+    color: #294a70;
+    font-size: 1.38em;
+    font-weight: 500;
+  }
+
+  .marginFont {
+    font-size: 1.31em;
+    margin: 25px;
+  }
+
+  .marginForcard {
+    margin-bottom: 10px;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.69em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .RemoveWidth {
+    padding-bottom: 5px;
+    width: 179px;
+  }
+
+  .submenu {
+    display: none;
+  }
+
+  .textColornew {
+    color: #1085d7;
+    font-size: 1em;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 513px) and (max-width: 576px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 1.53em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 1.15em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  #google_translate_element {
+    left: 160px;
+    padding-left: 10px;
+    padding-right: 6px;
+    position: absolute;
+    top: 25px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 126px 60px 50px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 10px 60px 72px;
+  }
+
+  .addpadding {
+    padding: 20px 70px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.84em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 3vh;
+    top: 38%;
+    transform: translateY(-50%);
+    width: 3vh;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -20px;
+  }
+
+  .heightCarousal {
+    height: 276px;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .heighttableDiv {
+    height: 250px;
+  }
+
+  .innerCarousalImg img {
+    height: 189px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 220px;
+  }
+
+  .marginFont {
+    font-size: 1.23em;
+    margin: 20px;
+  }
+
+  .marqueeFont {
+    color: #606060;
+    font-size: 0.76em;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .navbar-toggler {
+    background-color: #5378a2;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: -93px;
+    z-index: 999;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.76em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    display: none;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+
+  .RemoveWidth {
+    padding-bottom: 5px;
+    width: 222px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 51%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.84em;
+    padding: 5px;
+  }
+
+  .textColornew {
+    color: #1085d7;
+    font-size: 1em;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    width: 14%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.53em;
+    font-weight: 700;
+    margin: 14px 0;
+    padding-left: 11px;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .logoImg,
+  .search,
+  .serach,
+  .submenu,
+  .twologo,
+  .windowzoom {
+    display: none;
+  }
+
+  .marginCard,
+  .marginForcard {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 599px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #google_translate_element {
+    left: 325px;
+    padding-left: 10px;
+    padding-right: 6px;
+    position: absolute;
+    top: 25px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -29px;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    height: 30px;
+    padding: 6px;
+    width: 164px;
+  }
+
+  .HeadFontsize {
+    font-size: 1.69em;
+  }
+
+  .HeadFontsize1 {
+    font-size: 1.61em;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 44px;
+  }
+
+  .marginFont {
+    font-size: 1em;
+    margin: 3px;
+  }
+
+  .marginForcard {
+    margin-bottom: 10px;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .navbar-toggler {
+    background-color: #5378a2;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: -67px;
+    z-index: 999;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.76em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    padding-left: 35px;
+    padding-top: 25px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 59%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.76em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.61em;
+    padding: 5px;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    width: 15%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.61em;
+    font-weight: 700;
+    margin: 12px 0;
+    padding-left: 15px;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .logoImg,
+  .search,
+  .serach,
+  .submenu,
+  .twologo,
+  .windowzoom {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 766px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.69em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .dropdown-menu li {
+    position: relative;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -27px;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 7pt;
+    height: 30px;
+    padding: 8px;
+    width: 111px;
+  }
+
+  .HeadFontsize {
+    font-size: 1.69em;
+  }
+
+  .HeadFontsize1 {
+    font-size: 1.61em;
+  }
+
+  .imgpaddinglink {
+    margin-left: -14px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 48px;
+  }
+
+  .lastDiv {
+    padding-left: 35px;
+    padding-top: 21px;
+  }
+
+  .marginContainer {
+    margin-top: -10px;
+  }
+
+  .marginDiv {
+    margin-top: 0;
+  }
+
+  .marqueeFont {
+    color: #606060;
+    font-size: 0.69em;
+  }
+
+  .nav-item .submenu {
+    display: none;
+    left: 20%;
+    position: absolute;
+    top: -7px;
+  }
+
+  .nav-item .submenu-left {
+    left: auto;
+    right: 100%;
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0;
+  }
+
+  .navbar-collapse {
+    align-items: center;
+    background-color: #0b5d8e;
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .paddingForImg {
+    padding-left: 23px;
+    padding-top: 31px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 54%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.76em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.69em;
+    padding: 5px;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.61em;
+    font-weight: 700;
+    margin: 12px 0;
+    padding-left: 3px;
+  }
+
+  .widthforlogos {
+    width: 35px;
+  }
+
+  .dropdown-menu > li:hover > .submenu,
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+
+  .search,
+  .submenu,
+  .windowzoom {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 804px) {
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.46em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.53em;
+    justify-content: center;
+    margin: 0;
+  }
+
+  #paddingForContainer {
+    padding-bottom: 190px;
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.69em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -35px;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 8pt;
+    height: 30px;
+    padding: 6px;
+    width: 154px;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .iconsarrow {
+    font-size: 0.76em;
+    margin: 0;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 70px;
+  }
+
+  .marginFont {
+    font-size: 0.46em;
+    margin: 5px;
+  }
+
+  .marqueeFont {
+    color: #606060;
+    font-size: 0.69em;
+  }
+
+  .navbar-collapse {
+    align-items: center;
+    background-color: #0b5d8e;
+    flex-basis: 100%;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.84em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    padding-left: 23px;
+    padding-top: 30px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 66%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.84em;
+    padding: 5px;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    width: 15%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.61em;
+    font-weight: 700;
+    margin: 12px 0;
+    padding-left: 41px;
+  }
+
+  .viewprofile {
+    color: #cbdccb;
+    font-size: 0.53em;
+    text-decoration: none;
+  }
+
+  .widthforlogos {
+    width: 50px;
+  }
+}
+
+@media screen and (min-width: 805px) and (max-width: 992px) {
+  span.names {
+    color: white;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 9%;
+  }
+
+  #paddingForContainer {
+    padding: 15px 44px 36px;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 65px 50px 40px 62px;
+  }
+
+  #paddingForproContainer {
+    padding: 175px 60px 117px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.69em;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .fas {
+    color: #676767;
+    margin: -39px;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 8pt;
+    height: 25px;
+    padding: 5px;
+    width: 157px;
+  }
+
+  .HeadFontsize {
+    font-size: 1.69em;
+  }
+
+  .HeadFontsize1 {
+    font-size: 1.61em;
+  }
+
+  .heightforzoom {
+    height: 20px;
+    width: 20px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 85px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 0;
+  }
+
+  .marqueeFont {
+    color: #606060;
+    font-size: 0.69em;
+  }
+
+  .navbar-toggler {
+    background-color: #5378a2;
+    margin-right: 10px;
+    position: absolute;
+    right: 37px;
+    top: -59px;
+    z-index: 999;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 28px;
+    margin: 5px;
+    padding: 5px;
+    width: 75%;
+  }
+
+  .paddingForImg {
+    padding-left: 16px;
+    padding-top: 30px;
+  }
+
+  .removePaddingicons {
+    padding-left: 28px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 70%;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .table-section .card-body.overflow-auto a.link-primary {
+    font-size: 0.76em;
+    padding: 10px;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 34px;
+    position: relative;
+    text-align: center;
+    width: 18%;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.92em;
+    font-weight: 700;
+    margin: 10px 0;
+    padding-left: 40px;
+  }
+
+  .widthforlogos {
+    width: 50px;
+  }
+
+  span.names1,
+  span.names3 {
+    color: #cbdccb;
+    font-size: 11px;
+    margin: 0;
+  }
+
+  .marginLSpan,
+  .search {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  div#back a.nav-link {
+    color: #fff;
+    font-size: 0.84em;
+    padding-left: 20px;
+  }
+
+  span.names {
+    color: white;
+    display: flex;
+    font-size: 0.76em;
+    justify-content: center;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  span.names1 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.69em;
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  span.names3 {
+    color: #cbdccb;
+    display: flex;
+    font-size: 0.69em;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+  }
+
+  #fontfordirectordesk {
+    color: white;
+    font-size: 0.76em;
+  }
+
+  #google_translate_element {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+
+  #imagemain {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 14%;
+  }
+
+  #paddingForContainerAboutPage {
+    padding: 45px 57px 30px 60px;
+  }
+
+  #paddingForContainerMediaPage {
+    padding: 47px 55px 43px 58px;
+  }
+
+  #paddingForproContainer {
+    padding: 165px 60px 90px;
+  }
+
+  #textlogo {
+    padding-left: 15px;
+  }
+
+  .captionsfonts {
+    color: #cbdccb;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .fontForHeaderGboard {
+    color: #3c5571;
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: -1px;
+  }
+
+  .footerContainerwidth {
+    width: 100%;
+  }
+
+  .goog-te-combo {
+    background-color: #5378a2;
+    border-radius: 30px;
+    color: white;
+    font-family: arial;
+    font-size: 8pt;
+    font-size: 8pt;
+    height: 25px;
+    padding: 3px;
+    width: 142px;
+  }
+
+  .heightforzoom {
+    height: 25px;
+    width: 25px;
+  }
+
+  .heighttableDiv {
+    height: 250px;
+  }
+
+  .iconsarrow {
+    font-size: 0.84em;
+    margin: 3px;
+  }
+
+  .lastcardImage {
+    background-color: #606d8d;
+    height: 103px;
+  }
+
+  .lastDiv {
+    padding-left: 0;
+    padding-top: 8px;
+  }
+
+  .loginbutton {
+    background-color: #256198;
+    border-radius: 0;
+    color: #fff;
+    font-size: 0.61em;
+    font-weight: 500;
+    width: 64px;
+  }
+
+  .marginDiv {
+    margin-top: -5px;
+  }
+
+  .marginForDivConatiner {
+    margin-bottom: 5px;
+    margin-top: 2px;
+    padding-right: 34px;
+  }
+
+  .maxwidthcard {
+    height: 200px;
+  }
+
+  .NavContainerwidth {
+    width: 90%;
+  }
+
+  .navText {
+    color: white;
+    font-size: 9px;
+    padding: 6px 3px;
+  }
+
+  .news {
+    background: #fff7f7;
+    border-bottom: 1px solid #faaf3b;
+    height: 26px;
+    margin: 4px;
+    width: 80%;
+    padding: 3px 0;
+  }
+
+  .officer-img {
+    height: 86px;
+    margin: 10px;
+    width: 75px;
+  }
+
+  .otherlinkcolor {
+    color: #051320;
+    font-size: 0.84em;
+    font-weight: 500;
+    padding-left: 5px;
+    text-decoration: none;
+  }
+
+  .paddingForImg {
+    padding-left: 15px;
+    padding-top: 30px;
+  }
+
+  .search .fa-search {
+    font-size: 0.76em;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+  }
+
+  .search input {
+    border: 2px solid #d6d4d4;
+    border-radius: 35px;
+    font-size: 0.84em;
+    height: 25px;
+    width: 140px;
+  }
+
+  .setheight {
+    height: 80px;
+    padding-right: 10px;
+    width: 71px;
+  }
+
+  .setHeightCard {
+    background-color: white;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 523px;
+  }
+
+  .slick-next,
+  .slick-prev {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 40%;
+    top: 84%;
+  }
+
+  .sliderwidth {
+    height: 59%;
+    margin: 0 auto;
+    width: 88%;
+  }
+
+  .social-media li img.rounded-circle {
+    width: 15px;
+  }
+
+  .table td,
+  .table th {
+    color: #3c5571;
+    font-size: 0.84em;
+    font-weight: 500;
+  }
+
+  .title {
+    background: #faaf3b;
+    height: 34px;
+    position: relative;
+    text-align: center;
+  }
+
+  .title h5 {
+    color: #000000;
+    font-size: 0.76em;
+    font-weight: 700;
+    margin: 10px 0 9px 0;
+  }
+
+  .widthforcounter {
+    width: 100px;
+  }
+
+  .widthforlogos {
+    width: 50px;
+  }
+
+  .widthImage {
+    width: 400px;
+  }
+
+  .widthImageMian {
+    height: 120px;
+    padding-left: 17px;
+    width: 130px;
+  }
+
+  .widthTable td:nth-child(1) {
+    width: 26%;
+  }
+
+  .windowzoom {
+    margin-right: -41px;
+  }
+
+  .card-text,
+  .fontForHeptext {
+    font-size: 0.92em;
+    font-weight: 500;
+  }
+
+  .FontForMarquee,
+  .link-primary {
+    font-size: 18px !important;
+  }
+}
