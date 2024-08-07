@@ -14,3 +14,4 @@ yarn-error.log
 /.vscode
 /vendorrr
 .rr.yaml
+/server.txt
