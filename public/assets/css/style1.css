@@ -84,14 +84,14 @@ li.lidt a {
 }
 
 main {
-  padding: 20px;
+  padding: 50px 30px;
   width: 100%;
 }
 
 span.names {
   color: white;
   display: flex;
-  font-size: 16px;
+  font-size: 14px;
   justify-content: center;
   margin: 4px auto;
   text-align: center;
@@ -158,7 +158,7 @@ th.tbl_heading,
 }
 
 #back {
-  background-color: #5378a2;
+  background-color: #582517;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -199,12 +199,13 @@ th.tbl_heading,
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(
+  background: #484848;
+  /* background: linear-gradient(
     90deg,
     rgba(83, 120, 162, 0.7598389697675946) 0%,
     rgba(9, 9, 121, 0.7682423311121324) 35%,
     rgb(4 124 149 / 78%) 100%
-  );
+  ); */
 }
 
 #more,
@@ -330,9 +331,9 @@ th.tbl_heading,
 }
 
 .borderforcard1 {
-  border-color: #faaf3b;
-  border-radius: 0;
-  border: 2px solid #faaf3b;
+  border-color: #cccccc;
+  /* border-radius: 0; */
+  border: 2px solid #cccccc;
 }
 
 .borderRadiusCaptcha {
@@ -378,7 +379,7 @@ th.tbl_heading,
 }
 
 .card-header {
-  background-color: #5378a2;
+  background-color: #582517;
   padding-top: 12px;
 }
 
@@ -486,13 +487,16 @@ th.tbl_heading,
   font-size: 14px;
   font-weight: 500;
 }
-
+.pdfDiv{
+  height: 600px;
+  max-height: 650px;
+}
 .DirectorDeskColor {
   background-color: rgb(204 204 204);
 }
 
 .directoreDesk .card-header {
-  background: #faaf3b;
+  background: #F1EBEB;
   border-radius: 4px;
   color: #000;
   margin: 0;
@@ -630,7 +634,7 @@ th.tbl_heading,
 }
 
 .fontfornav {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .fontForprofile {
@@ -667,7 +671,7 @@ th.tbl_heading,
 }
 
 .footerContainerwidth {
-  background: #032d5e;
+  background: #E4E4E4;
   /*! padding: 8px 0 10px; */
   width: 100%;
 }
@@ -683,14 +687,20 @@ th.tbl_heading,
   font-size: 16px;
 }
 
+.footerLinks a{
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
 .footerImg,
 .marginCheckbox,
 .marginCircle,
 .marginforzoom {
   margin-right: 5px;
   cursor: pointer;
-  width: 28px;
-  height: 26px;
+  /* width: 28px;
+  height: 26px; */
   margin-top: 2px;
 }
 .screenReader {
@@ -726,9 +736,10 @@ th.tbl_heading,
   display: flex;
 }
 
-.footertext1 {
-  color: #676767;
-  font-size: 12px;
+.footertext {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .form-control {
@@ -906,14 +917,15 @@ th.tbl_heading,
 
 .logoImg a,
 .logoImg a h3 {
-  font-size: 28px;
+  font-size: 32px;
   color: #000;
   text-decoration: none;
   margin: auto 0;
+  font-weight: 600;
 }
 
 .logoImg a img {
-  max-height: 95px;
+  max-height: 105px;
   width: auto;
   margin-right: 10px;
 }
@@ -1185,7 +1197,7 @@ body > select.goog-te-combo {
 
 .translatorBar {
   padding: 6px 4px;
-  background: #5378a2;
+  /* background: #5378a2; */
   text-align: end;
 }
 
@@ -1394,6 +1406,8 @@ body > select.goog-te-combo {
   height: 110px;
   background: #fff;
   border: 0;
+  width: 110px;
+  object-fit: fill;
 }
 
 .marginForcard,
@@ -1654,11 +1668,14 @@ body > select.goog-te-combo {
 }
 .table-section .card-header h4 {
   font-size: 22px;
-  color: #12406a;
+  color: #ffffff;
+  text-align: left;
+  padding: 0px 20px;
 }
 
 .table-section .card-header {
-  background: aliceblue;
+  /* background: aliceblue; */
+  background: #582517;
   border-radius: 0;
   padding: 12px 0 6px;
   text-align: center;
@@ -1708,8 +1725,8 @@ body > select.goog-te-combo {
 
 .title h5 {
   color: #000000;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+    font-weight: 600;
   margin: auto 0;
   padding: 0 10px;
 }
