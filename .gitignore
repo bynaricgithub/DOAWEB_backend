@@ -12,6 +12,6 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-/vendorrr
+/vendor
 .rr.yaml
 /server.txt
