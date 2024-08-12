@@ -434,8 +434,8 @@ th.tbl_heading,
 
 .colorcontact1 {
   color: #000;
-  font-size: 1.07em;
-  font-weight: 500;
+  font-size: 31px;
+  font-weight: 600;
 }
 
 .colornone {
@@ -836,10 +836,63 @@ th.tbl_heading,
   object-fit: fill;
   max-height: 520px;
   width: auto;
-  border-radius: 2px;
-  height: 400px;
+  /* border-radius: 2px; */
+  height: 450px;
+  border: 3px solid #fff;
 }
+.commonparatext{
+color: #000;
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: justify;
+  font-weight: 500;
+}
+.innercommTitle {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.links{
+  color: #051320;
+    text-decoration: none;
+    text-align: justify;
+    display: block;
+    font-weight: 600;
+    font-size: 21px;
+}
+.links:hover{
+  text-decoration: underline;
+  color: #000;
 
+}
+.commonSubheader {
+  /* background-color: #d3d3d3; */
+  /* padding: 25px; */
+  /* background-image: url('../Images1/pic-about.jpg'); */
+  /* background-repeat: no-repeat;  */
+  /* background-position: bottom; */
+}
+ul.contact {
+  list-style-type: none;
+  margin-left: 0;
+  padding: 0 8%;
+}
+ul.contact li {
+  display: flex;
+  margin-bottom: 8px;
+}
+ul.contact li span, ul.contact li span a {
+  color: #000;
+  padding-top: 1px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 18px;
+  text-decoration: none;
+
+}
 .lastcardImage {
   background-color: #606d8d;
   height: 160px;
@@ -925,8 +978,8 @@ th.tbl_heading,
 }
 
 .logoImg a img {
-  max-height: 105px;
-  width: auto;
+  height: 120px;
+  width: 120px;
   margin-right: 10px;
 }
 .logoImg a img + img {
@@ -1194,7 +1247,23 @@ body > select.goog-te-combo {
 .goog-te-gadget-simple span:nth-of-type(2) {
   display: none !important;
 }
-
+.goog-te-gadget-simple{
+  background: #582517 !important;
+  padding: 7px 20px !important;
+  border-radius: 35px;
+  font-size: 13px;
+  height: 38px;
+  width: 200px;
+} 
+.goog-te-gadget-simple span {
+  text-decoration: none;
+  color: #fff !important;
+  padding: 0px 0px !important;
+  font-size: 15px;
+}
+img.goog-te-gadget-icon {
+  display:none;
+}
 .translatorBar {
   padding: 6px 4px;
   /* background: #5378a2; */
@@ -1892,7 +1961,7 @@ body > select.goog-te-combo {
 
   .link-primary {
     color: #3c5571;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 500;
     text-decoration: none;
   }
@@ -1991,8 +2060,9 @@ body > select.goog-te-combo {
 
   .colorcontact1 {
     color: #000;
-    font-size: 10px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
   }
 
   .contactTable td:nth-child(1) {
@@ -3977,12 +4047,55 @@ body > select.goog-te-combo {
   .logoImg a img + img {
     display: block !important;
   }
-  .logoImg img,
-  .logoImg3 img {
-    max-height: 70px;
+  .logoImg img
+   {
+    max-height: 90px !important;
+    width: 90px !important;
+  }
+  .logoImg3 img{
+    width: 80px;
+  }
+  .px-5{
+    padding: 10px 0px !important;
+  }
+  .displayDiv{
+    display: inline;
+  }
+  .pdfDiv iframe {
+    height: 100vh;
   }
   .search {
     width: fit-content;
+  }
+  /* .contact li {
+    flex-direction: column;
+    align-items: flex-start;
+  } */
+
+  .displayDiv ,.hidepadding {
+    margin-left: 0;
+    padding: 4px 0px !important;
+  }
+
+  .contact .fa {
+    margin: 17px 5px !important;
+  }
+
+  .displayDiv a {
+    display: block;
+        word-break: break-all;
+        margin: 0px !important;
+        text-decoration: none;
+  }
+  ul.contact li span ,ul.contact li span a{
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .main {
+    padding: 30px 30px;
+  }
+  .mx-5{
+    margin: 0px !important;
   }
   .search input {
     width: 185px;
@@ -3990,7 +4103,9 @@ body > select.goog-te-combo {
 
   .logoImg a,
   .logoImg a h3 {
-    font-size: 14px;
+    font-size: 18px;
+        margin: 10px 0px;
+        align-items: center;
   }
 
   .footerContainerwidth li {
