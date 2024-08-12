@@ -565,6 +565,7 @@ th.tbl_heading,
   color: white;
   font-size: 14px;
   text-align: justify;
+  margin-bottom: 0px;
 }
 
 .fontForForm,
@@ -978,8 +979,8 @@ ul.contact li span, ul.contact li span a {
 }
 
 .logoImg a img {
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
   margin-right: 10px;
 }
 .logoImg a img + img {
@@ -1921,7 +1922,9 @@ img.goog-te-gadget-icon {
   }
 
   .innerCarousalImg img {
-    height: auto;
+    min-height: 200px;
+    object-fit: fill;
+    height: 185px;
   }
   .card-text,
   .fontForHeptext {
@@ -1988,7 +1991,7 @@ img.goog-te-gadget-icon {
   }
 
   .navbar-toggler {
-    background-color: #5378a2;
+    background-color: #f1ebeb;
     position: relative;
     right: 0;
     z-index: 106;
@@ -2128,6 +2131,7 @@ img.goog-te-gadget-icon {
   .ImagesPoliticians {
     display: flex;
     padding-bottom: 10px;
+    margin-top: 10px;
   }
 
   .lastcardImage {
@@ -3965,7 +3969,9 @@ img.goog-te-gadget-icon {
   }
 
   .innerCarousalImg img {
-    height: auto;
+    min-height: 200px;
+    object-fit: fill;
+    height: 185px;
   }
   .navbar-collapse {
     background-color: #0b5d8e;
@@ -4018,7 +4024,7 @@ img.goog-te-gadget-icon {
 
 @media (max-width: 600px) {
   .navbar-collapse {
-    background-color: #0b5d8e;
+    background-color: #484848;
     text-align: center;
     width: 290px;
     position: fixed;
@@ -4091,8 +4097,8 @@ img.goog-te-gadget-icon {
     font-size: 16px;
     text-decoration: none;
   }
-  .main {
-    padding: 30px 30px;
+  main {
+    padding: 30px 20px !important;
   }
   .mx-5{
     margin: 0px !important;
