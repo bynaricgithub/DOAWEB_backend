@@ -5,8 +5,8 @@
   padding: 0;
   text-decoration: none;
 }
-
-*/ #imagemain {
+/* 
+#imagemain {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,9 +14,9 @@
   padding-top: 12%;
 }
 
-*/ #paddingForContainerAboutPage {
+#paddingForContainerAboutPage {
   padding: 10px 98px 40px 114px;
-}
+} */
 
 a.bynaricLink {
   color: white;
@@ -662,7 +662,7 @@ th.tbl_heading,
   height: 160px;
 }
 
-.lastDiv .Positionlanguage{
+.lastDiv .Positionlanguage {
   float: right;
 }
 
@@ -968,7 +968,7 @@ th.tbl_heading,
   border-radius: 2px;
 }
 
-.news button.btn{
+.news button.btn {
   width: 24px;
   height: 24px;
   margin: -2px 2px 0 0;
@@ -977,7 +977,7 @@ th.tbl_heading,
   font-size: 12px;
 }
 
-.news button.btn:hover{
+.news button.btn:hover {
   background: transparent;
 }
 .news-content p {
@@ -1056,7 +1056,7 @@ th.tbl_heading,
   padding-left: 10px;
 }
 
-.paddingAboutMsbte {
+.paddingTopxl {
   border-color: white;
   padding-left: 0;
   padding-right: 0;
@@ -1118,7 +1118,7 @@ th.tbl_heading,
 
 .region-table td {
   color: #000;
-  font-size: 14px!important;
+  font-size: 14px !important;
   font-weight: 400;
   text-align: center;
   vertical-align: baseline;
@@ -1148,7 +1148,7 @@ th.tbl_heading,
 .removePaddingicons {
 }
 
-.Removerborder {
+.removerborder {
   align-items: center;
   background: #fff0;
   border: 0;
@@ -1631,7 +1631,7 @@ div#im-slider .innerCarousalImg img,
 
 .marginForcard,
 .removeBorder,
-.RemoverBorderRadius,
+.removerborderRadius,
 .table-section .card {
   border-radius: 0;
 }
@@ -2864,7 +2864,6 @@ div#im-slider .innerCarousalImg img,
     padding: 6px;
     width: 175px;
   }
-  
 
   .lastcardImage {
     background-color: #606d8d;

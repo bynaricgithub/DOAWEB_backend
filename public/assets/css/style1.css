@@ -5,6 +5,154 @@
   text-decoration: none;
 }
 
+:root {
+  /* Background Colors */
+  --background-color-main: #582517;
+  --background-color-secondary: #ffffff;
+  --background-color-tertiary: #ccc;
+  --background-color-dark: #484848;
+  --background-color-light: #e4e4e4;
+  --background-color-light-muted: #f1ebeb;
+  --background-color-alt: #da9938;
+  --background-color-footer: #3b4856;
+  --background-color-yellow: #faaf3b;
+  --background-color-muted: #f8f9fa;
+  --background-color-header: #582517;
+  --background-color-card-header: #e4e4e4;
+  --background-color-button: #0d6efd;
+  --background-color-button-hover: #0b5d8e;
+  --background-color-link: #294a70;
+  --background-color-highlight: #faaf3b;
+  --background-color-accent: #5378a2;
+  --background-color-imp-link: #ccc;
+
+  /* Text Colors */
+  --text-color-main: #000000;
+  --text-color-secondary: #ffffff;
+  --text-color-muted: #606060;
+  --text-color-dark: #111;
+  --text-color-accent: #195d8c;
+  --text-color-footer: #ffffff;
+  --text-color-imp-link: #3c5571;
+  --text-color-highlight: #faaf3b;
+  --text-color-red: red;
+
+  /* Link Colors */
+  --link-color-main: #ffffff;
+  --link-color-muted: #e7e7e7;
+  --link-color-dark: #294a70;
+  --link-color-light: #ffffff;
+  --link-color-accent: #0d6efd;
+  --link-color-highlight: #195d8c;
+
+  /* Additional Colors */
+  --border-color-main: #dddddd;
+  --border-color-secondary: #cccccc;
+  --border-color-dark: #3c5571;
+  --border-color-light: #e7e7e7;
+  --border-color-muted: #cdc9c9;
+}
+
+:root.dark-theme {
+  /* Background Colors */
+  --background-color-main: #1a1a1a;
+  --background-color-secondary: #2a2a2a;
+  --background-color-tertiary: #333333;
+  --background-color-dark: #444;
+  --background-color-light: #fff;
+  --background-color-light-muted: #3c3c3c;
+  --background-color-alt: #453e35;
+  --background-color-footer: #1b1b1b;
+  --background-color-yellow: #222;
+  --background-color-muted: #2e2e2e;
+  --background-color-header: #1a1a1a;
+  --background-color-card-header: #3a3a3a;
+  --background-color-button: #0a58ca;
+  --background-color-button-hover: #0946a1;
+  --background-color-link: #5378a2;
+  --background-color-highlight: #222;
+  --background-color-accent: #5378a2;
+  --background-color-imp-link: #1f4f86;
+
+  /* Text Colors */
+  --text-color-main: #111;
+  --text-color-secondary: #eee;
+  --text-color-muted: #b0b0b0;
+  --text-color-dark: #ffffff;
+  --text-color-accent: #82b1ff;
+  --text-color-footer: #b0b0b0;
+  --text-color-imp-link: #82b1ff;
+  --text-color-highlight: #777;
+  --text-color-red: #111;
+
+  /* Link Colors */
+  --link-color-main: #82b1ff;
+  --link-color-muted: #4a4a4a;
+  --link-color-dark: #5378a2;
+  --link-color-light: #ffffff;
+  --link-color-accent: #82b1ff;
+  --link-color-highlight: #777;
+
+  /* Additional Colors */
+  --border-color-main: #444444;
+  --border-color-secondary: #555555;
+  --border-color-dark: #666666;
+  --border-color-light: #fff;
+  --border-color-muted: #3c3c3c;
+}
+
+
+
+/* for red  */
+:root.blue-theme {
+  /* Background Colors */
+  --background-color-main: #067296;
+  --background-color-secondary: #2a2a2a;
+  --background-color-tertiary: #333333;
+  --background-color-dark: #444;
+  --background-color-light: #fff;
+  --background-color-light-muted: #3c3c3c;
+  --background-color-alt: #453e35;
+  --background-color-footer: #067296;
+  --background-color-yellow: #ed9d1b;
+  --background-color-muted: #2e2e2e;
+  --background-color-header: #067296;
+  --background-color-card-header: #3a3a3a;
+  --background-color-button: #0a58ca;
+  --background-color-button-hover: #0946a1;
+  --background-color-link: #5378a2;
+  --background-color-highlight: #067296;
+  --background-color-accent: #5378a2;
+  --background-color-imp-link: #1f4f86;
+
+  /* Text Colors */
+  --text-color-main: #111;
+  --text-color-secondary: #eee;
+  --text-color-muted: #b0b0b0;
+  --text-color-dark: #ffffff;
+  --text-color-accent: #82b1ff;
+  --text-color-footer: #b0b0b0;
+  --text-color-imp-link: #82b1ff;
+  --text-color-highlight: #777;
+  --text-color-red: #111;
+
+  /* Link Colors */
+  --link-color-main: #82b1ff;
+  --link-color-muted: #4a4a4a;
+  --link-color-dark: #5378a2;
+  --link-color-light: #ffffff;
+  --link-color-accent: #82b1ff;
+  --link-color-highlight: #777;
+
+  /* Additional Colors */
+  --border-color-main: #444444;
+  --border-color-secondary: #555555;
+  --border-color-dark: #666666;
+  --border-color-light: #fff;
+  --border-color-muted: #3c3c3c;
+}
+/* Updated Styles with Variables */
+
 .m-show {
   display: none;
 }
@@ -14,10 +162,16 @@
   background-size: cover;
   min-height: 650px;
   padding-top: 12%;
+  background-color: var(--background-color-main);
 }
 
-#paddingForContainerAboutPage {
-  padding: 10px 98px 40px 114px;
+.themeColor {
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  border: 2px solid #fff;
+  cursor: pointer;
 }
 
 [dir="rtl"] .slick-slide,
@@ -26,7 +180,7 @@
 }
 
 a.bynaricLink {
-  color: white;
+  color: var(--link-color-light);
   text-decoration: none;
 }
 
@@ -42,10 +196,11 @@ body {
   overflow-x: hidden;
   top: 0;
   width: 100%;
+  background-color: var(--background-color-secondary);
 }
 
 button#back-to-up {
-  background: orange;
+  background: var(--background-color-yellow);
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -53,11 +208,11 @@ button#back-to-up {
 }
 
 button.bg-white.navbar-toggler.collapsed {
-  border: 1px solid;
+  border: 1px solid var(--border-color-main);
 }
 
 div#back a.nav-link {
-  color: #fff;
+  color: var(--link-color-light);
   font-size: 14px;
   padding-left: 20px;
 }
@@ -70,14 +225,14 @@ div#im-slider .innerCarousalImg img,
 }
 
 h2.head-text {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 1.76em;
   font-weight: 700;
   line-height: 30px;
 }
 
 li.lidt a {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 14px;
   font-weight: 400;
   text-decoration: none;
@@ -89,9 +244,9 @@ main {
 }
 
 span.names {
-  color: white;
+  color: var(--text-color-secondary);
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   justify-content: center;
   margin: 4px auto;
   text-align: center;
@@ -99,17 +254,16 @@ span.names {
 }
 
 span.names1 {
-  color: #cbdccb;
-  color: #e5e5e5;
+  color: var(--text-color-secondary);
   display: flex;
-  font-size: 12px;
+  font-size: 11px;
   justify-content: center;
   margin: 0;
   padding-top: 0;
 }
 
 span.names2 {
-  color: #cbdccb;
+  color: var(--text-color-secondary);
   display: flex;
   font-size: 12px;
   margin: 0;
@@ -120,7 +274,7 @@ span.names2 {
 
 span.names3 a,
 span.names3 {
-  color: #cbdccb;
+  color: var(--text-color-secondary);
   display: flex;
   font-size: 12px;
   justify-content: center;
@@ -130,8 +284,8 @@ span.names3 {
   margin-bottom: 0;
 }
 table.table.table-bordered.region-table thead.thead-dark th {
-  background: #faaf3b;
-  color: #111;
+  background: var(--background-color-yellow);
+  color: var(--text-color-main);
   text-align: center;
 }
 
@@ -150,21 +304,21 @@ td.htable {
 
 th.tbl_heading,
 .help th.htabletitl {
-  background: #294a70;
-  border: 1px solid #dddddd;
-  color: #fff;
+  background: var(--background-color-dark);
+  border: 1px solid var(--border-color-main);
+  color: var(--text-color-secondary);
   padding: 7px;
   text-align: left;
 }
 
 #back {
-  background-color: #582517;
+  background-color: var(--background-color-main);
   padding-bottom: 0;
   padding-top: 0;
 }
 
 #back1 {
-  background-color: #da9938;
+  background-color: var(--background-color-alt);
   padding-bottom: 9px;
   padding-top: 9px;
 }
@@ -179,33 +333,20 @@ th.tbl_heading,
   padding-right: 10px;
 }
 
-#imagemain {
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 650px;
-  padding-top: 11%;
-}
-
 #imagemain1 {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 650px;
   padding-top: 25px;
+  background-color: var(--background-color-main);
 }
 
 #imageMainHomePage {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #484848;
-  /* background: linear-gradient(
-    90deg,
-    rgba(83, 120, 162, 0.7598389697675946) 0%,
-    rgba(9, 9, 121, 0.7682423311121324) 35%,
-    rgb(4 124 149 / 78%) 100%
-  ); */
+  background: var(--background-color-dark);
 }
 
 #more,
@@ -224,8 +365,8 @@ th.tbl_heading,
 
 #pageDropDown,
 .dropdown-menu.open.show {
-  background-color: white;
-  color: black;
+  background-color: var(--background-color-secondary);
+  color: var(--text-color-main);
 }
 
 #zoomtext {
@@ -235,7 +376,7 @@ th.tbl_heading,
 
 .active,
 .contactFont {
-  color: #000;
+  color: var(--text-color-main);
 }
 
 .active,
@@ -291,14 +432,14 @@ th.tbl_heading,
 }
 
 .backbuttoncolor {
-  background-color: #1f4f86;
+  background-color: var(--background-color-link);
   border-radius: 0;
 }
 
 .backgroundColorCardHeader {
-  background: #e4e4e4;
+  background: var(--background-color-light);
   border-radius: 0;
-  color: #000;
+  color: var(--text-color-main);
   padding: 10px;
   text-align: center;
 }
@@ -307,13 +448,13 @@ th.tbl_heading,
 .backgroundColorCircular,
 .backgroundImpLink,
 .contactTable th:nth-child(1) {
-  background-color: #ccc;
+  background-color: var(--background-color-tertiary);
 }
 
 .BadgeColor {
-  background-color: #cccccc;
+  background-color: var(--background-color-tertiary);
   border-radius: 0;
-  color: #3c5571;
+  color: var(--text-color-dark);
   display: flex;
   justify-content: center;
   padding: 8px;
@@ -326,14 +467,12 @@ th.tbl_heading,
 }
 
 .borderforcard {
-  border-color: white;
+  border-color: var(--background-color-main);
   border-radius: 0;
 }
 
 .borderforcard1 {
-  border-color: #cccccc;
-  /* border-radius: 0; */
-  border: 2px solid #cccccc;
+  border: 2px solid var(--border-color-light);
 }
 
 .borderRadiusCaptcha {
@@ -342,18 +481,18 @@ th.tbl_heading,
 }
 
 .buttonclor {
-  background-color: #5378a2;
+  background-color: var(--background-color-accent);
 }
 
 .caption-container {
   background-color: #222;
-  color: white;
+  color: var(--text-color-secondary);
   padding: 2px 16px;
   text-align: center;
 }
 
 .captionsfonts {
-  color: #ffffff;
+  color: var(--text-color-secondary);
   display: flex;
   font-size: 14px;
   text-align: center;
@@ -371,7 +510,7 @@ th.tbl_heading,
 }
 
 .card-button {
-  background-color: #0d6efd;
+  background-color: var(--background-color-button);
 }
 
 .card-button.btn:hover {
@@ -379,7 +518,7 @@ th.tbl_heading,
 }
 
 .card-header {
-  background-color: #582517;
+  background-color: var(--background-color-main);
   padding-top: 12px;
 }
 
@@ -413,7 +552,7 @@ th.tbl_heading,
 .carousel-control-next1,
 .carousel-control-prev1 {
   border-radius: 50%;
-  border: 2px solid white;
+  border: 2px solid var(--background-color-light);
   height: 3vh;
   top: 35%;
   transform: translateY(-50%);
@@ -421,19 +560,19 @@ th.tbl_heading,
 }
 
 .closeButton {
-  background-color: #5378a2;
+  background-color: var(--background-color-accent);
   border-radius: 0;
   font-weight: 500;
 }
 
 .colorcontact {
-  color: #3c5571;
+  color: var(--text-color-dark);
   font-size: 1.07em;
   font-weight: 500;
 }
 
 .colorcontact1 {
-  color: #000;
+  color: var(--text-color-main);
   font-size: 31px;
   font-weight: 600;
 }
@@ -448,21 +587,21 @@ th.tbl_heading,
 }
 
 .contactTable td:nth-child(1) {
-  background-color: #ccc;
-  color: #102134;
+  background-color: var(--background-color-tertiary);
+  color: var(--text-color-main);
   font-size: 14px;
   font-weight: 500;
   width: 13%;
 }
 
 .contactTable th {
-  color: #000;
+  color: var(--text-color-main);
   font-size: 14px;
   font-weight: 500;
 }
 
 .container-fluid.footerContainerwidth ul {
-  background: #3b4856;
+  background: var(--background-color-footer);
   margin: 0px 0 8px 0;
   padding: 6px 0;
 }
@@ -483,31 +622,33 @@ th.tbl_heading,
 }
 
 .deskcolor {
-  color: #135685;
+  color: var(--background-color-alt);
   font-size: 14px;
   font-weight: 500;
 }
-.pdfDiv{
+
+.pdfDiv {
   height: 600px;
   max-height: 650px;
 }
 .DirectorDeskColor {
-  background-color: rgb(204 204 204);
+  background-color: var(--border-color-secondary);
 }
 
 .directoreDesk .card-header {
-  background: #F1EBEB;
+  background: var(--background-color-light-muted);
   border-radius: 4px;
-  color: #000;
+  color: var(--text-color-main);
   margin: 0;
   padding: 10px 0 0;
   text-align: center;
 }
 .directoreDesk .card-header h4 {
+  color: var(--text-color-dark);
   font-size: 20px;
 }
 .dropdown-item {
-  color: white;
+  color: var(--text-color-secondary);
   font-size: 14px;
   white-space: break-spaces;
   padding: 6px 15px;
@@ -520,29 +661,29 @@ th.tbl_heading,
   opacity: 0 !important;
 }
 .dropdown-menu {
-  background-color: #5378a2;
+  background-color: var(--background-color-accent);
   border-radius: 0;
 }
 
 .fa-bars {
-  color: #ffffff;
+  color: var(--text-color-secondary);
 }
 
 .feedbacklink {
-  color: #294a70;
+  color: var(--background-color-dark);
   font-size: 1.15em;
   font-size: 14px;
   font-weight: 500;
 }
 
 .fixed-footer {
-  color: #fff;
+  color: var(--text-color-secondary);
   position: relative;
 }
 /* 
 .fixed-header {
-  background-color: #ffffff;
-  color: #ffffff;
+  background-color: var(--background-color-secondary);
+  color: var(--text-color-secondary);
   position: sticky;
   top: 0;
   width: 100%;
@@ -562,7 +703,7 @@ th.tbl_heading,
   font-weight: 500;
 }
 .fontForDesk {
-  color: white;
+  color: var(--text-color-secondary);
   font-size: 14px;
   text-align: justify;
   margin-bottom: 0px;
@@ -570,27 +711,27 @@ th.tbl_heading,
 
 .fontForForm,
 .linkcolor1 {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 1.07em;
   font-weight: 500;
 }
 
 .fontForHeader {
-  color: #fff;
+  color: var(--text-color-secondary);
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 0;
 }
 
 .fontForHeaderGboard {
-  color: #fff;
+  color: var(--text-color-secondary);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: -1px;
 }
 
 .fontForHeaderText {
-  color: #5378a2;
+  color: var(--background-color-accent);
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 4px;
@@ -602,7 +743,7 @@ th.tbl_heading,
 }
 
 .impLinklist {
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid var(--border-color-light);
   width: 98%;
   margin: auto;
 }
@@ -617,14 +758,14 @@ th.tbl_heading,
 }
 
 .impLinklist a {
-  color: #3c5571;
+  color: var(--text-color-dark);
   text-decoration: none;
   font-size: 16px;
 }
 
 .circulars tr td,
 .circulars td a {
-  color: #3c5571;
+  color: var(--text-color-dark);
   text-decoration: none;
   font-size: 16px;
   text-align: justify;
@@ -639,28 +780,28 @@ th.tbl_heading,
 }
 
 .fontForprofile {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 14px;
 }
 
 .fontp {
-  color: #1c3e4b;
+  color: var(--text-color-dark);
   font-size: 18px;
   font-weight: 500;
   text-align: justify;
   margin: 0 auto 20px;
   max-width: 90%;
-  text-shadow: 1px 1px 3px #bdbdbd;
+  text-shadow: 1px 1px 3px var(--border-color-light);
 }
 
 .fontqualitypolicy {
-  color: #5378a2;
+  color: var(--background-color-accent);
   font-size: 22px;
   display: block;
 }
 
 .fontSpan {
-  color: #223e5d;
+  color: var(--background-color-dark);
   font-size: 22px;
   font-weight: 500;
 }
@@ -672,7 +813,7 @@ th.tbl_heading,
 }
 
 .footerContainerwidth {
-  background: #E4E4E4;
+  background: var(--background-color-light);
   /*! padding: 8px 0 10px; */
   width: 100%;
 }
@@ -683,13 +824,13 @@ th.tbl_heading,
 }
 
 .footerContainerwidth li a {
-  color: #fff;
+  color: var(--text-color-secondary);
   text-decoration: none;
   font-size: 16px;
 }
 
-.footerLinks a{
-  color: #000;
+.footerLinks a {
+  color: var(--text-color-main);
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -718,17 +859,23 @@ th.tbl_heading,
     #777777
   );
   margin: 0 1px;
-  width: 16px;
+  width: 18px;
   display: block;
-  color: #fff;
+  color: var(--text-color-secondary);
   border-radius: 3px;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 28px;
+}
+
+.footertext {
+  color: var(--text-color-main);
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .visitorCount {
-  background-color: #f0f0f0;
-  color: #111;
+  background-color: var(--background-color-footer);
+  color: var(--text-color-secondary);
   padding: 3px 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 3px;
@@ -736,15 +883,8 @@ th.tbl_heading,
   width: fit-content;
   display: flex;
 }
-
-.footertext {
-  color: #000;
-  font-size: 18px;
-  font-weight: 500;
-}
-
 .form-control {
-  border-color: #ddd;
+  border-color: var(--border-color-main);
   box-shadow: none;
 }
 
@@ -757,9 +897,9 @@ th.tbl_heading,
 }
 
 .goog-te-combo {
-  background-color: #5378a2;
+  background-color: var(--background-color-accent);
   border-radius: 30px;
-  color: white;
+  color: var(--text-color-secondary);
   height: 35px;
   padding: 6px;
   width: 188px;
@@ -799,7 +939,7 @@ th.tbl_heading,
 
 .heighttableDiv2 .d-flex.p-1,
 .heighttableDiv .d-flex.p-1 {
-  border-bottom: 1px solid #cdc9c9;
+  border-bottom: 1px solid var(--border-color-muted);
   line-height: 32px;
   margin: auto;
 }
@@ -807,7 +947,7 @@ th.tbl_heading,
 .heighttableDiv2 th,
 .heighttableDiv2 td,
 .heighttableDiv td {
-  border: 1px solid #dedede;
+  border: 1px solid var(--border-color-light);
 }
 
 .heightWidth {
@@ -839,10 +979,10 @@ th.tbl_heading,
   width: auto;
   /* border-radius: 2px; */
   height: 450px;
-  border: 3px solid #fff;
+  border: 3px solid var(--background-color-light);
 }
-.commonparatext{
-color: #000;
+.commonparatext {
+  color: var(--text-color-main);
   font-size: 18px;
   margin-top: 15px;
   text-align: justify;
@@ -850,23 +990,22 @@ color: #000;
 }
 .innercommTitle {
   font-size: 26px;
-  color: #fff;
+  color: var(--text-color-secondary);
   text-align: center;
   font-weight: 700;
   text-transform: capitalize;
 }
-.links{
-  color: #051320;
-    text-decoration: none;
-    text-align: justify;
-    display: block;
-    font-weight: 600;
-    font-size: 21px;
+.links {
+  color: var(--text-color-main);
+  text-decoration: none;
+  text-align: justify;
+  display: block;
+  font-weight: 600;
+  font-size: 21px;
 }
-.links:hover{
+.links:hover {
   text-decoration: underline;
-  color: #000;
-
+  color: var(--text-color-main);
 }
 .commonSubheader {
   /* background-color: #d3d3d3; */
@@ -878,24 +1017,25 @@ color: #000;
 ul.contact {
   list-style-type: none;
   margin-left: 0;
-  padding: 0 8%;
+  padding-left: 0;
+  max-width: 85%;
 }
 ul.contact li {
   display: flex;
   margin-bottom: 8px;
 }
-ul.contact li span, ul.contact li span a {
-  color: #000;
+ul.contact li span,
+ul.contact li span a {
+  color: var(--text-color-main);
   padding-top: 1px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   font-size: 18px;
   text-decoration: none;
-
 }
 .lastcardImage {
-  background-color: #606d8d;
+  background-color: var(--text-color-dark);
   height: 160px;
 }
 
@@ -909,7 +1049,7 @@ ul.contact li span, ul.contact li span a {
 }
 
 .latest-update {
-  background: #faaf3b;
+  background: var(--background-color-yellow);
   height: auto;
   padding-top: 1px;
 }
@@ -926,7 +1066,7 @@ ul.contact li span, ul.contact li span a {
 }
 
 .link-primary {
-  color: #3c5571 !important;
+  color: var(--text-color-dark) !important;
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -934,7 +1074,7 @@ ul.contact li span, ul.contact li span a {
 }
 
 .link-primary1 {
-  color: #294a70;
+  color: var(--background-color-dark);
   font-size: 2.92em;
   font-weight: 500;
   text-decoration: none;
@@ -942,19 +1082,18 @@ ul.contact li span, ul.contact li span a {
 
 .link:hover {
   background: lightskyblue;
-  color: #000;
-  color: red;
+  color: var(--text-color-main);
   transition: all 0.5s;
 }
 
 .linkcolor {
-  color: #0d6efd;
+  color: var(--background-color-button);
   font-weight: 500;
   margin: 15px 0;
 }
 
 .linktextcolor {
-  color: #294a70;
+  color: var(--background-color-dark);
   font-weight: 500;
 }
 
@@ -971,10 +1110,10 @@ ul.contact li span, ul.contact li span a {
 
 .logoImg a,
 .logoImg a h3 {
-  font-size: 32px;
-  color: #000;
+  font-size: 28px;
+  color: var(--text-color-dark);
   text-decoration: none;
-  margin: auto 0;
+  margin: auto 10px;
   font-weight: 600;
 }
 
@@ -982,6 +1121,9 @@ ul.contact li span, ul.contact li span a {
   height: 110px;
   width: 110px;
   margin-right: 10px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px;
 }
 .logoImg a img + img {
   max-height: 44px;
@@ -994,6 +1136,9 @@ ul.contact li span, ul.contact li span a {
   height: auto;
   margin: auto 10px;
   padding-top: 5px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px;
 }
 
 .login-form {
@@ -1003,7 +1148,7 @@ ul.contact li span, ul.contact li span a {
 .login-form .avatar {
   border-radius: 50%;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
-  color: #fff;
+  color: var(--text-color-secondary);
   height: 100px;
   margin: 0 auto 30px;
   text-align: center;
@@ -1016,7 +1161,7 @@ ul.contact li span, ul.contact li span a {
 }
 
 .login-form .btn {
-  background-color: #faaf3b;
+  background-color: var(--background-color-yellow);
   border: none;
   line-height: normal;
 }
@@ -1030,7 +1175,7 @@ ul.contact li span, ul.contact li span a {
 
 .login-form .btn:focus,
 .login-form .btn:hover {
-  background: #faaf3b;
+  background: var(--background-color-yellow);
 }
 
 .login-form .captcha {
@@ -1038,17 +1183,17 @@ ul.contact li span, ul.contact li span a {
 }
 
 .login-form .captcha .captcha-form .captcha-refresh {
-  background-color: #faaf3b;
+  background-color: var(--background-color-yellow);
   border-radius: 0 7px 7px 0;
   border: none;
-  color: #eee;
+  color: var(--text-color-muted);
   cursor: pointer;
   outline: none;
   width: 60px;
 }
 
 .login-form .captcha .preview {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 1.69em;
   height: 40px;
   letter-spacing: 10px;
@@ -1077,9 +1222,9 @@ ul.contact li span, ul.contact li span a {
 }
 
 .login-form form {
-  background: #fff;
+  background: var(--background-color-light);
   border-radius: 1px;
-  color: #434343;
+  color: var(--text-color-main);
   margin-bottom: 15px;
   padding: 10px;
 }
@@ -1095,9 +1240,9 @@ ul.contact li span, ul.contact li span a {
 }
 
 .loginbutton {
-  background-color: #256198;
+  background-color: var(--background-color-link);
   border-radius: 0;
-  color: #fff;
+  color: var(--text-color-secondary);
   font-size: 11px;
   font-size: 1.15em;
   font-weight: 500;
@@ -1130,12 +1275,12 @@ ul.contact li span, ul.contact li span a {
 }
 
 .marqueeFont {
-  color: #606060;
+  color: var(--text-color-muted);
   font-size: 12px;
 }
 
 .marqueeFont a {
-  color: red;
+  color: var(--text-color-red);
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
@@ -1169,7 +1314,7 @@ ul.contact li span, ul.contact li span a {
 }
 
 .navbar-toggler {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--background-color-light);
   margin: 5px 5px 5px auto;
 }
 
@@ -1179,12 +1324,12 @@ ul.contact li span, ul.contact li span a {
 }
 
 .navText {
-  color: white;
+  color: var(--text-color-secondary);
   white-space: nowrap;
 }
 
 .navText:hover {
-  color: #faaf3b;
+  color: var(--text-color-highlight);
   font-weight: bolder;
 }
 
@@ -1206,7 +1351,7 @@ ul.contact li span, ul.contact li span a {
   -ms-transform: translate(-50%, -50%);
   border-radius: 5px;
   border: none;
-  color: white;
+  color: var(--text-color-secondary);
   cursor: pointer;
   font-size: 22px;
   left: 48%;
@@ -1223,7 +1368,7 @@ ul.contact li span, ul.contact li span a {
 
 .news {
   background: #fff7f7;
-  border-bottom: 1px solid #faaf3b;
+  border-bottom: 1px solid var(--background-color-yellow);
   border-radius: 2px;
   display: flex;
   /*! height: 32px; */
@@ -1248,49 +1393,53 @@ body > select.goog-te-combo {
 .goog-te-gadget-simple span:nth-of-type(2) {
   display: none !important;
 }
-.goog-te-gadget-simple{
-  background: #582517 !important;
-  padding: 7px 20px !important;
-  border-radius: 35px;
-  font-size: 13px;
-  height: 38px;
-  width: 200px;
-} 
+.goog-te-gadget-simple {
+  background: var(--background-color-main) !important;
+  padding: 6px 20px !important;
+  border-radius: 20px;
+  font-size: 12px;
+  min-width: 150px;
+  border: 0 !important;
+}
 .goog-te-gadget-simple span {
   text-decoration: none;
-  color: #fff !important;
+  color: var(--text-color-secondary) !important;
   padding: 0px 0px !important;
   font-size: 15px;
 }
 img.goog-te-gadget-icon {
-  display:none;
+  display: none;
 }
 .translatorBar {
   padding: 6px 4px;
-  /* background: #5378a2; */
+  /* background: var(--background-color-accent); */
   text-align: end;
 }
 
 .news button.btn {
-  border: 0;
+  border: 1px solid var(--background-color-secondary);
   margin: 4px 2px 4px 0px;
   padding: 2px 6px;
   min-width: 26px;
   text-align: center;
+  background-color: var(--background-color-yellow);
+  color: var(--text-color-dark);
 }
 
 .news button.btn:hover {
   background: transparent;
+  border-color: var(--background-color-yellow);
+  border: 1px solid var(--background-color-yellow);
 }
 
 .news-content p {
-  color: #000;
+  color: var(--text-color-main);
   display: inline;
   margin-right: 41px;
 }
 
 .newtag {
-  color: #000000;
+  color: var(--text-color-main);
 }
 
 .next {
@@ -1302,7 +1451,7 @@ img.goog-te-gadget-icon {
 .prev {
   -webkit-user-select: none;
   border-radius: 0 3px 3px 0;
-  color: white;
+  color: var(--text-color-secondary);
   cursor: pointer;
   font-size: 1.53em;
   font-weight: bold;
@@ -1331,7 +1480,7 @@ img.goog-te-gadget-icon {
   max-width: 100px;
   display: block;
   height: 100px;
-  background: #fff;
+  background: var(--text-color-secondary);
   border-radius: 50%;
   padding: 0;
 }
@@ -1354,7 +1503,7 @@ img.goog-te-gadget-icon {
 }
 
 .otherlinkcolor {
-  color: #051320;
+  color: var(--text-color-main);
   font-size: 1.15em;
   font-weight: 500;
   padding-left: 5px;
@@ -1370,8 +1519,8 @@ img.goog-te-gadget-icon {
   padding-left: 5px;
 }
 
-.paddingAboutMsbte {
-  border-color: white;
+.paddingTopxl {
+  border-color: var(--background-color-secondary);
   border-radius: 4px;
   box-shadow: 0px 2px 4px -1px #0b0b0b;
   margin: 2% auto;
@@ -1405,7 +1554,7 @@ img.goog-te-gadget-icon {
   padding-top: 30px;
 }
 .phoneLinkColor {
-  color: #3c5571;
+  color: var(--text-color-dark);
   text-decoration: none;
 }
 
@@ -1430,8 +1579,8 @@ img.goog-te-gadget-icon {
 .widthTable th,
 .region-table th {
   text-align: center;
-  background: #faaf3b !important;
-  color: #000 !important;
+  background: var(--background-color-yellow) !important;
+  color: var(--text-color-main) !important;
 }
 .widthTable tr td:first-child,
 .region-table tr td:first-child {
@@ -1440,7 +1589,7 @@ img.goog-te-gadget-icon {
   width: auto;
 }
 .region-table td {
-  color: #000;
+  color: var(--text-color-main);
   font-size: 14px !important;
   font-weight: 400;
   vertical-align: baseline;
@@ -1465,19 +1614,21 @@ img.goog-te-gadget-icon {
   border-radius: 5px;
 }
 
-.Removerborder {
+.removerborder {
   align-items: center;
   background: transparent;
   border: 0;
 }
 
-.Removerborder img {
+.removerborder img {
   border-radius: 50%;
   height: 110px;
-  background: #fff;
+  background: var(--text-color-secondary);
   border: 0;
   width: 110px;
   object-fit: fill;
+  border: 1px solid var(--border-color-light);
+  margin-bottom: 5px;
 }
 
 .marginForcard,
@@ -1513,7 +1664,7 @@ img.goog-te-gadget-icon {
 
 .search input {
   border-radius: 35px;
-  border: 2px solid #d6d4d4;
+  border: 2px solid var(--border-color-muted);
   font-size: 13px;
   height: 38px;
   width: 200px;
@@ -1530,8 +1681,8 @@ img.goog-te-gadget-icon {
 }
 
 .search1 input {
-  background: #5378a2;
-  border-color: #5378a2;
+  background: var(--background-color-accent);
+  border-color: var(--background-color-accent);
   border-radius: 35px;
   height: 40px;
   text-indent: 25px;
@@ -1542,7 +1693,7 @@ img.goog-te-gadget-icon {
 }
 
 .serachbarbackground {
-  color: #5378a2;
+  color: var(--background-color-accent);
 }
 
 .serv li {
@@ -1551,7 +1702,7 @@ img.goog-te-gadget-icon {
 }
 
 .setHeightCard {
-  background-color: white;
+  background-color: var(--background-color-secondary);
   border-bottom-left-radius: 4px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
@@ -1559,8 +1710,8 @@ img.goog-te-gadget-icon {
 }
 
 .sidebar {
-  background: #000;
-  color: #fff;
+  background: var(--text-color-main);
+  color: var(--text-color-secondary);
   height: 100vh;
   transition: all 0.5s;
   width: 200px;
@@ -1701,7 +1852,10 @@ img.goog-te-gadget-icon {
   mix-blend-mode: color-burn;
   object-fit: contain;
   position: relative;
-  width: 85%;
+  width: 90%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px;
 }
 
 .social-media li {
@@ -1718,7 +1872,7 @@ img.goog-te-gadget-icon {
 .swiper-button-prev {
   background-size: 10px auto;
   border-radius: 50%;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--background-color-light);
   height: 40px;
   transition: border-color 0.3s;
   width: 40px;
@@ -1727,25 +1881,25 @@ img.goog-te-gadget-icon {
 
 .table td,
 .table th {
-  color: #3c5571;
+  color: var(--text-color-dark);
   font-size: 16px;
   font-weight: 500;
 }
 
 .table th {
-  background-color: #e7e7e7;
+  background-color: var(--background-color-light);
   font-size: 16px;
 }
 .table-section .card-header h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: var(--text-color-secondary);
   text-align: left;
   padding: 0px 20px;
 }
 
 .table-section .card-header {
   /* background: aliceblue; */
-  background: #582517;
+  background: var(--background-color-main);
   border-radius: 0;
   padding: 12px 0 6px;
   text-align: center;
@@ -1756,24 +1910,24 @@ img.goog-te-gadget-icon {
 }
 
 .textColornew {
-  color: #195d8c;
+  color: var(--text-color-accent);
   font-size: 22px;
   font-weight: 500;
   margin: 8px 0;
 }
 
 .textDecoMigr {
-  color: #5378a2;
+  color: var(--background-color-accent);
   text-decoration: underline;
 }
 
 .textDecortaionLinks {
-  color: #000000;
+  color: var(--text-color-main);
   text-decoration: none;
 }
 
 .textForFirstLogo {
-  color: #000000;
+  color: var(--text-color-main);
   font-size: 24px;
   font-weight: 700;
   line-height: 24px;
@@ -1786,7 +1940,7 @@ img.goog-te-gadget-icon {
 }
 
 .title {
-  background: #faaf3b;
+  background: var(--background-color-yellow);
   height: 30px;
   position: relative;
   white-space: nowrap;
@@ -1794,9 +1948,9 @@ img.goog-te-gadget-icon {
 }
 
 .title h5 {
-  color: #000000;
+  color: var(--text-color-dark);
   font-size: 16px;
-    font-weight: 600;
+  font-weight: 600;
   margin: auto 0;
   padding: 0 10px;
 }
@@ -1821,7 +1975,7 @@ img.goog-te-gadget-icon {
 }
 
 .viewprofile:hover {
-  color: #fff;
+  color: var(--text-color-secondary);
 }
 
 .widthImage {
@@ -1838,7 +1992,7 @@ img.goog-te-gadget-icon {
 }
 
 .wrap .header {
-  color: #ffffff;
+  color: var(--text-color-secondary);
   padding-top: 10px;
   position: fixed;
   top: 0;
@@ -1870,11 +2024,11 @@ img.goog-te-gadget-icon {
   padding: 0 10px;
 }
 .circularsList {
-  padding: 3px 10px;
+  padding: 6px 10px;
   list-style-type: disc;
 }
 .circularsList a {
-  color: #051320;
+  color: var(--text-color-main);
   text-decoration: none;
   text-align: justify;
   display: block;
@@ -1884,8 +2038,8 @@ img.goog-te-gadget-icon {
   display: block;
 }
 .card .tab-list button {
-  background: #424599;
-  color: #fff;
+  background: var(--text-color-dark);
+  color: var(--text-color-secondary);
   border-radius: 2px;
   padding: 6px 10px;
   border: 0;
@@ -1895,7 +2049,7 @@ img.goog-te-gadget-icon {
   margin: 4px 1px;
 }
 .card .tab-list button.active {
-  background: #faaf3b;
+  background: var(--background-color-yellow);
 }
 .card .tab-content {
   padding: 15px 0;
@@ -1912,11 +2066,11 @@ img.goog-te-gadget-icon {
     width: 90%;
     top: 0;
     left: 0;
-    background: #0b5d8e;
+    background: var(--background-color-button-hover);
     margin: 5px auto;
   }
   div#back a.nav-link {
-    color: #fff;
+    color: var(--text-color-secondary);
     font-size: 12px;
     padding-left: 13px;
   }
@@ -1938,13 +2092,13 @@ img.goog-te-gadget-icon {
   }
 
   .feedbacklink {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 12px;
     font-weight: 500;
   }
 
   .fontForHeaderGboard {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 14px;
     font-weight: 500;
     margin-bottom: -1px;
@@ -1963,7 +2117,7 @@ img.goog-te-gadget-icon {
   }
 
   .link-primary {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 16px;
     font-weight: 500;
     text-decoration: none;
@@ -1991,7 +2145,7 @@ img.goog-te-gadget-icon {
   }
 
   .navbar-toggler {
-    background-color: #f1ebeb;
+    background-color: var(--background-color-light-muted);
     position: relative;
     right: 0;
     z-index: 106;
@@ -2037,7 +2191,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: #cbdccb;
+    color: var(--text-color-dark);
     display: flex;
     font-size: 11px;
     justify-content: center;
@@ -2048,7 +2202,7 @@ img.goog-te-gadget-icon {
   .carousel-control-next,
   .carousel-control-prev {
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--text-color-secondary);
     height: 3vh;
     top: 35%;
     transform: translateY(-50%);
@@ -2056,20 +2210,20 @@ img.goog-te-gadget-icon {
   }
 
   .colorcontact {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
 
   .colorcontact1 {
-    color: #000;
+    color: var(--text-color-main);
     font-size: 14px;
     font-weight: 600;
     text-align: center;
   }
 
   .contactTable td:nth-child(1) {
-    background-color: #ccc;
+    background-color: var(--background-color-tertiary);
     color: #102134;
     font-size: 0.53em;
     font-weight: 500;
@@ -2077,7 +2231,7 @@ img.goog-te-gadget-icon {
   }
 
   .DescSizeFont {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 10px;
     font-weight: 500;
     text-decoration: none;
@@ -2089,7 +2243,7 @@ img.goog-te-gadget-icon {
   }
 
   .fontForForm {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 11px;
     font-weight: 500;
   }
@@ -2100,9 +2254,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 181px;
@@ -2135,7 +2289,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-tertiary);
     height: 255px;
   }
 
@@ -2145,7 +2299,7 @@ img.goog-te-gadget-icon {
   }
 
   .latest-update h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 12px;
     margin: 3px 0;
   }
@@ -2156,13 +2310,13 @@ img.goog-te-gadget-icon {
   }
 
   .linkcolor {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 1.07em;
   }
 
   .linktextcolor {
-    color: #294a70;
-    font-size: 22px;
+    color: var(--background-color-link);
+    font-size: 1.07em;
     font-weight: 500;
   }
 
@@ -2201,7 +2355,7 @@ img.goog-te-gadget-icon {
     margin-top: 5px;
   }
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 10px;
     font-weight: 500;
     padding-left: 5px;
@@ -2238,7 +2392,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-weight: 500;
     font-size: 13px;
   }
@@ -2255,7 +2409,7 @@ img.goog-te-gadget-icon {
   }
 
   .textColornew {
-    color: #1085d7;
+    color: var(--text-color-accent);
     font-size: 14px;
   }
 
@@ -2290,7 +2444,7 @@ img.goog-te-gadget-icon {
 
 @media screen and (min-width: 1025px) and (max-width: 1085px) {
   span.names {
-    color: white;
+    color: var(--text-color-secondary);
     font-size: 12px;
     margin: 0;
     padding-top: 5px;
@@ -2298,7 +2452,7 @@ img.goog-te-gadget-icon {
   }
 
   span.names1 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     font-size: 12px;
     margin: 0;
     padding-top: 4px;
@@ -2340,9 +2494,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 7pt;
     height: 24px;
@@ -2361,28 +2515,28 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 96px;
   }
 
   .link-primary {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
   }
 
   .loginbutton {
-    background-color: #256198;
+    background-color: var(--background-color-button);
     border-radius: 0;
-    color: #fff;
+    color: var(--text-color-secondary);
     font-size: 0.53em;
     font-weight: 500;
     width: 100px;
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-alt);
     font-size: 12px;
     font-weight: 500;
     padding-left: 5px;
@@ -2408,7 +2562,7 @@ img.goog-te-gadget-icon {
 
   .search input {
     border-radius: 35px;
-    border: 2px solid #d6d4d4;
+    border: 2px solid var(--border-color-muted);
     font-size: 12px;
     height: 24px;
     width: 120px;
@@ -2421,13 +2575,13 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 12px;
     font-weight: 500;
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 12px;
     font-weight: 700;
     margin: 11px 0;
@@ -2454,9 +2608,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 7pt;
     height: 24px;
@@ -2475,28 +2629,28 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 118px;
   }
 
   .link-primary {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 12px;
     font-weight: 500;
     text-decoration: none;
   }
 
   .loginbutton {
-    background-color: #256198;
+    background-color: var(--background-color-button);
     border-radius: 0;
-    color: #fff;
+    color: var(--text-color-secondary);
     font-size: 0.53em;
     font-weight: 500;
     width: 100px;
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-alt);
     font-size: 12px;
     font-weight: 500;
     padding-left: 5px;
@@ -2522,7 +2676,7 @@ img.goog-te-gadget-icon {
 
   .search input {
     border-radius: 35px;
-    border: 2px solid #d6d4d4;
+    border: 2px solid var(--border-color-muted);
     font-size: 12px;
     height: 24px;
     width: 136px;
@@ -2535,7 +2689,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 12px;
     font-weight: 500;
   }
@@ -2570,7 +2724,7 @@ img.goog-te-gadget-icon {
   }
 
   .fontForHeaderGboard {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 1.07em;
     font-weight: 500;
     margin-bottom: -1px;
@@ -2589,9 +2743,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 8pt;
     height: 25px;
@@ -2605,7 +2759,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 127px;
   }
 
@@ -2631,7 +2785,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
@@ -2667,16 +2821,16 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 150px;
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 131px;
   }
 
@@ -2687,7 +2841,7 @@ img.goog-te-gadget-icon {
 
   .search input {
     border-radius: 35px;
-    border: 2px solid #d6d4d4;
+    border: 2px solid var(--border-color-muted);
     font-size: 12px;
     height: 30px;
     width: 150px;
@@ -2707,18 +2861,8 @@ img.goog-te-gadget-icon {
     padding-top: 14%;
   }
 
-  #paddingForContainerAboutPage {
-    padding-bottom: 35px;
-    padding-left: 80px;
-    padding-right: 82px;
-  }
-
-  #paddingForContainerMediaPage {
-    padding: 6px 76px 45px 81px;
-  }
-
   .captionsfonts {
-    color: #cbdccb;
+    color: var(--text-color-dark);
     display: flex;
     font-size: 12px;
     justify-content: center;
@@ -2729,7 +2873,7 @@ img.goog-te-gadget-icon {
   .carousel-control-next,
   .carousel-control-prev {
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--text-color-secondary);
     height: 3vh;
     top: 50%;
     transform: translateY(-50%);
@@ -2749,16 +2893,16 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 158px;
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 137px;
   }
 
@@ -2777,7 +2921,7 @@ img.goog-te-gadget-icon {
 
   .search input {
     border-radius: 35px;
-    border: 2px solid #d6d4d4;
+    border: 2px solid var(--border-color-muted);
     font-size: 12px;
     height: 30px;
     width: 158px;
@@ -2796,7 +2940,7 @@ img.goog-te-gadget-icon {
   }
 
   .title {
-    background: #faaf3b;
+    background: var(--background-color-yellow);
     height: 31px;
     position: relative;
     text-align: center;
@@ -2804,7 +2948,7 @@ img.goog-te-gadget-icon {
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 14px;
     font-weight: 700;
     margin: 7px 0;
@@ -2827,18 +2971,8 @@ img.goog-te-gadget-icon {
     padding-top: 14%;
   }
 
-  #paddingForContainerAboutPage {
-    padding-bottom: 35px;
-    padding-left: 80px;
-    padding-right: 82px;
-  }
-
-  #paddingForContainerMediaPage {
-    padding: 6px 76px 45px 81px;
-  }
-
   .captionsfonts {
-    color: #cbdccb;
+    color: var(--text-color-dark);
     display: flex;
     font-size: 12px;
     justify-content: center;
@@ -2849,7 +2983,7 @@ img.goog-te-gadget-icon {
   .carousel-control-next,
   .carousel-control-prev {
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--text-color-secondary);
     height: 3vh;
     top: 50%;
     transform: translateY(-50%);
@@ -2865,16 +2999,16 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 175px;
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 153px;
   }
   .slick-next {
@@ -2909,7 +3043,7 @@ img.goog-te-gadget-icon {
   }
 
   .fontForForm {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 11px;
     font-weight: 500;
   }
@@ -2920,16 +3054,16 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 150px;
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 169px;
   }
 
@@ -2939,12 +3073,12 @@ img.goog-te-gadget-icon {
   }
 
   .linkcolor {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 1.07em;
   }
 
   .linktextcolor {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 1.07em;
     font-weight: 500;
   }
@@ -2976,7 +3110,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 12px;
     font-weight: 500;
     padding-left: 5px;
@@ -2997,12 +3131,12 @@ img.goog-te-gadget-icon {
   }
 
   .textColornew {
-    color: #1085d7;
+    color: var(--text-color-accent);
     font-size: 14px;
   }
 
   .title {
-    background: #faaf3b;
+    background: var(--background-color-yellow);
     height: 33px;
     position: relative;
     text-align: center;
@@ -3013,18 +3147,6 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 368px) and (max-width: 376px) {
-  #paddingForContainerAboutPage {
-    padding: 100px 40px 20px;
-  }
-
-  #paddingForContainerMediaPage {
-    padding: 100px 40px 35px;
-  }
-
-  #paddingForproContainer {
-    padding: 135px 60px 34px;
-  }
-
   .counterlink {
     justify-content: center;
   }
@@ -3035,7 +3157,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 12px;
     font-weight: 500;
     padding-left: 5px;
@@ -3049,7 +3171,7 @@ img.goog-te-gadget-icon {
   }
 
   span.names1 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 14px;
     justify-content: center;
@@ -3080,12 +3202,12 @@ img.goog-te-gadget-icon {
   }
 
   .linkcolor {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 1.07em;
   }
 
   .linktextcolor {
-    color: #294a70;
+    color: var(--background-color-link);
     font-size: 24px;
     font-weight: 500;
   }
@@ -3112,7 +3234,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 12px;
     font-weight: 500;
     padding-left: 5px;
@@ -3129,7 +3251,7 @@ img.goog-te-gadget-icon {
   }
 
   .textColornew {
-    color: #1085d7;
+    color: var(--text-color-accent);
     font-size: 14px;
   }
 }
@@ -3141,14 +3263,6 @@ img.goog-te-gadget-icon {
     padding-right: 6px;
     position: absolute;
     top: 25px;
-  }
-
-  #paddingForContainerAboutPage {
-    padding: 126px 60px 50px;
-  }
-
-  #paddingForContainerMediaPage {
-    padding: 10px 60px 72px;
   }
 
   .addpadding {
@@ -3174,7 +3288,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 220px;
   }
 
@@ -3189,7 +3303,7 @@ img.goog-te-gadget-icon {
   }
 
   .marqueeFont {
-    color: #606060;
+    color: var(--text-color-muted);
     font-size: 10px;
   }
 
@@ -3206,7 +3320,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 10px;
     font-weight: 500;
     padding-left: 5px;
@@ -3233,7 +3347,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
@@ -3244,12 +3358,12 @@ img.goog-te-gadget-icon {
   }
 
   .textColornew {
-    color: #1085d7;
+    color: var(--text-color-accent);
     font-size: 14px;
   }
 
   .title {
-    background: #faaf3b;
+    background: var(--background-color-yellow);
     height: 34px;
     position: relative;
     text-align: center;
@@ -3257,7 +3371,7 @@ img.goog-te-gadget-icon {
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 12px;
     font-weight: 700;
     margin: 9px 0 0;
@@ -3270,13 +3384,13 @@ img.goog-te-gadget-icon {
   }
 
   span.names1 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 0.53em;
   }
 
   span.names3 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 0.53em;
     justify-content: center;
@@ -3292,7 +3406,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: #cbdccb;
+    color: var(--text-color-dark);
     display: flex;
     font-size: 0.53em;
     justify-content: center;
@@ -3306,9 +3420,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     height: 30px;
     padding: 6px;
     width: 164px;
@@ -3328,7 +3442,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 44px;
   }
 
@@ -3354,7 +3468,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 10px;
     font-weight: 500;
     padding-left: 5px;
@@ -3375,7 +3489,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 10px;
     font-weight: 500;
   }
@@ -3386,7 +3500,7 @@ img.goog-te-gadget-icon {
   }
 
   .title {
-    background: #faaf3b;
+    background: var(--background-color-yellow);
     height: 34px;
     position: relative;
     text-align: center;
@@ -3394,7 +3508,7 @@ img.goog-te-gadget-icon {
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 12px;
     font-weight: 700;
     margin: 12px 0;
@@ -3413,9 +3527,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 7pt;
     height: 30px;
@@ -3436,7 +3550,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 48px;
   }
 
@@ -3454,7 +3568,7 @@ img.goog-te-gadget-icon {
   }
 
   .marqueeFont {
-    color: #606060;
+    color: var(--text-color-muted);
     font-size: 12px;
   }
 
@@ -3472,7 +3586,7 @@ img.goog-te-gadget-icon {
 
   .navbar-collapse {
     align-items: center;
-    background-color: #0b5d8e;
+    background-color: var(--background-color-link);
     flex-basis: 100%;
     flex-grow: 1;
     text-align: center;
@@ -3498,7 +3612,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 10px;
     font-weight: 500;
   }
@@ -3509,7 +3623,7 @@ img.goog-te-gadget-icon {
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 12px;
     font-weight: 700;
     margin: 12px 0;
@@ -3523,22 +3637,22 @@ img.goog-te-gadget-icon {
 
 @media screen and (min-width: 768px) and (max-width: 804px) {
   span.names1 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 11px;
   }
 
   span.names3 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 11px;
     justify-content: center;
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 8pt;
     height: 30px;
@@ -3557,25 +3671,25 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 70px;
   }
 
   .marqueeFont {
-    color: #606060;
+    color: var(--text-color-muted);
     font-size: 12px;
   }
 
   .navbar-collapse {
     align-items: center;
-    background-color: #0b5d8e;
+    background-color: var(--background-color-link);
     flex-basis: 100%;
     flex-grow: 1;
     text-align: center;
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 11px;
     font-weight: 500;
     padding-left: 5px;
@@ -3596,7 +3710,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
@@ -3607,7 +3721,7 @@ img.goog-te-gadget-icon {
   }
 
   .viewprofile {
-    color: #cbdccb;
+    color: var(--text-color-muted);
     font-size: 11px;
     text-decoration: none;
   }
@@ -3619,7 +3733,7 @@ img.goog-te-gadget-icon {
 
 @media screen and (min-width: 805px) and (max-width: 992px) {
   span.names {
-    color: white;
+    color: var(--text-color-secondary);
     font-size: 13px;
     margin: 0;
     padding-top: 5px;
@@ -3628,7 +3742,7 @@ img.goog-te-gadget-icon {
 
   span.names1,
   span.names3 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     font-size: 11px;
     margin: 0;
   }
@@ -3642,9 +3756,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 8pt;
     height: 25px;
@@ -3666,7 +3780,7 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 85px;
   }
 
@@ -3675,7 +3789,7 @@ img.goog-te-gadget-icon {
   }
 
   .marqueeFont {
-    color: #606060;
+    color: var(--text-color-muted);
     font-size: 12px;
   }
 
@@ -3697,7 +3811,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
@@ -3721,7 +3835,7 @@ img.goog-te-gadget-icon {
 
 @media screen and (min-width: 992px) and (max-width: 1024px) {
   div#back a.nav-link {
-    color: #fff;
+    color: var(--text-color-secondary);
     font-size: 11px;
     padding-left: 20px;
   }
@@ -3734,14 +3848,14 @@ img.goog-te-gadget-icon {
   }
 
   span.names1 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 12px;
     text-align: center;
   }
 
   span.names3 {
-    color: #cbdccb;
+    color: var(--text-color-secondary);
     display: flex;
     font-size: 12px;
     justify-content: center;
@@ -3750,7 +3864,7 @@ img.goog-te-gadget-icon {
   }
 
   #fontfordirectordesk {
-    color: white;
+    color: var(--text-color-secondary);
     font-size: 10px;
   }
 
@@ -3770,10 +3884,6 @@ img.goog-te-gadget-icon {
     padding: 45px 57px 30px 60px;
   }
 
-  #paddingForContainerMediaPage {
-    padding: 47px 55px 43px 58px;
-  }
-
   #paddingForproContainer {
     padding: 165px 60px 90px;
   }
@@ -3789,7 +3899,7 @@ img.goog-te-gadget-icon {
   }
 
   .fontForHeaderGboard {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 14px;
     font-weight: 500;
     margin-bottom: -1px;
@@ -3805,9 +3915,9 @@ img.goog-te-gadget-icon {
   }
 
   .goog-te-combo {
-    background-color: #5378a2;
+    background-color: var(--background-color-accent);
     border-radius: 30px;
-    color: white;
+    color: var(--text-color-secondary);
     font-family: arial;
     font-size: 8pt;
     height: 25px;
@@ -3830,14 +3940,14 @@ img.goog-te-gadget-icon {
   }
 
   .lastcardImage {
-    background-color: #606d8d;
+    background-color: var(--background-color-alt);
     height: 103px;
   }
 
   .loginbutton {
-    background-color: #256198;
+    background-color: var(--background-color-link);
     border-radius: 0;
-    color: #fff;
+    color: var(--text-color-secondary);
     font-size: 12px;
     font-weight: 500;
     width: 64px;
@@ -3868,7 +3978,7 @@ img.goog-te-gadget-icon {
   }
 
   .otherlinkcolor {
-    color: #051320;
+    color: var(--background-color-dark);
     font-size: 11px;
     font-weight: 500;
     padding-left: 5px;
@@ -3889,7 +3999,7 @@ img.goog-te-gadget-icon {
 
   .search input {
     border-radius: 35px;
-    border: 2px solid #d6d4d4;
+    border: 2px solid var(--border-color-muted);
     font-size: 11px;
     height: 25px;
     width: 140px;
@@ -3902,7 +4012,7 @@ img.goog-te-gadget-icon {
   }
 
   .setHeightCard {
-    background-color: white;
+    background-color: var(--background-color-secondary);
     border-bottom-left-radius: 4px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -3925,7 +4035,7 @@ img.goog-te-gadget-icon {
 
   .table td,
   .table th {
-    color: #3c5571;
+    color: var(--text-color-dark);
     font-size: 11px;
     font-weight: 500;
   }
@@ -3934,7 +4044,7 @@ img.goog-te-gadget-icon {
   }
 
   .title h5 {
-    color: #000000;
+    color: var(--text-color-main);
     font-size: 14px;
     font-weight: 700;
     margin: 7px 0 8px 0;
@@ -3974,7 +4084,7 @@ img.goog-te-gadget-icon {
     height: 185px;
   }
   .navbar-collapse {
-    background-color: #0b5d8e;
+    background-color: var(--background-color-link);
     text-align: center;
     width: 260px;
     position: fixed;
@@ -4000,7 +4110,7 @@ img.goog-te-gadget-icon {
   .navbar-collapse li {
     text-align: left;
     padding: 2px 10px 2px 8px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border-color-main);
   }
   .navbar-collapse li:last-of-type {
     border-bottom: 0;
@@ -4024,7 +4134,7 @@ img.goog-te-gadget-icon {
 
 @media (max-width: 600px) {
   .navbar-collapse {
-    background-color: #484848;
+    background-color: var(--background-color-link);
     text-align: center;
     width: 290px;
     position: fixed;
@@ -4043,7 +4153,7 @@ img.goog-te-gadget-icon {
   .navbar-collapse li {
     text-align: left;
     padding: 2px 10px 2px 8px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border-color-main);
   }
   .navbar-collapse li:last-of-type {
     border-bottom: 0;
@@ -4053,18 +4163,17 @@ img.goog-te-gadget-icon {
   .logoImg a img + img {
     display: block !important;
   }
-  .logoImg img
-   {
+  .logoImg img {
     max-height: 90px !important;
     width: 90px !important;
   }
-  .logoImg3 img{
+  .logoImg3 img {
     width: 80px;
   }
-  .px-5{
+  .px-5 {
     padding: 10px 0px !important;
   }
-  .displayDiv{
+  .displayDiv {
     display: inline;
   }
   .pdfDiv iframe {
@@ -4078,7 +4187,8 @@ img.goog-te-gadget-icon {
     align-items: flex-start;
   } */
 
-  .displayDiv ,.hidepadding {
+  .displayDiv,
+  .hidepadding {
     margin-left: 0;
     padding: 4px 0px !important;
   }
@@ -4089,18 +4199,19 @@ img.goog-te-gadget-icon {
 
   .displayDiv a {
     display: block;
-        word-break: break-all;
-        margin: 0px !important;
-        text-decoration: none;
+    word-break: break-all;
+    margin: 0px !important;
+    text-decoration: none;
   }
-  ul.contact li span ,ul.contact li span a{
+  ul.contact li span,
+  ul.contact li span a {
     font-size: 16px;
     text-decoration: none;
   }
   main {
     padding: 30px 20px !important;
   }
-  .mx-5{
+  .mx-5 {
     margin: 0px !important;
   }
   .search input {
@@ -4110,18 +4221,23 @@ img.goog-te-gadget-icon {
   .logoImg a,
   .logoImg a h3 {
     font-size: 18px;
-        margin: 10px 0px;
-        align-items: center;
+    margin: 10px 0px;
+    align-items: center;
   }
 
   .footerContainerwidth li {
     font-size: 13px;
   }
-  .Removerborder img {
+  .removerborder img {
     max-height: 120px;
   }
 }
-
+@media (min-width: 992px) {
+  .col-lg-2 {
+      flex: 0 0 auto;
+      width: 20% !important;
+  }
+}
 @media (max-width: 1920px) {
   .container,
   .container-lg,
@@ -4130,5 +4246,8 @@ img.goog-te-gadget-icon {
   .container-xl,
   .container-xxl {
     max-width: 1600px;
+  }
+  .customewidth{
+    width: 20% !important;
   }
 }
