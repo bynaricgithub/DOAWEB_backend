@@ -7,6 +7,26 @@ use Carbon\Carbon;
 
 class LatestUpdateController extends Controller
 {
+    public function news()
+    {
+        try {
+            $result = DB::select("SELECT * FROM news");
+            if ($result) {
+                return response()->json([
+                    'status'     => 'success',
+                    'data'   => $result
+                ], 200);
+            }
+        } catch (\Exception $e) {
+            return response()->json([
+                'status'     => 'failure',
+                'message'   => 'Problem Fetching news ...Error:' . $e->getMessage()
+            ], 400);
+        }
+    }
+
+
+
     public function index()
     {
         try {
