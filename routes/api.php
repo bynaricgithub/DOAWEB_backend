@@ -34,3 +34,4 @@ Route::get('/visitor/count', [UserController::class, 'getUserVisitCount']);
 Route::get('/map', [MapController::class, 'index']);
 Route::get('/search', [SearchController::class, 'index']);
 Route::get('/lastUpdateDate', [LatestUpdateController::class, 'getLastUpdateDate']);
+Route::get('/news', [LatestUpdateController::class, 'news']);
