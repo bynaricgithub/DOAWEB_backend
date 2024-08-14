@@ -2168,7 +2168,9 @@ img.goog-te-gadget-icon {
   span.names {
     font-size: 12px;
   }
-
+  .customewidth{
+    width: 50% !important;
+  }
   span.names1 {
     font-size: 11px;
   }
@@ -2425,6 +2427,7 @@ img.goog-te-gadget-icon {
   }
 }
 @media all and (min-width: 992px) {
+  
   .dropdown-menu > li:hover > .submenu,
   .navbar .nav-item:hover .dropdown-menu {
     display: block;
@@ -2448,6 +2451,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1085px) {
+  .customewidth{
+    width: 20% !important;
+  }
   span.names {
     color: var(--text-color-secondary);
     font-size: 12px;
@@ -2598,6 +2604,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1085px) and (max-width: 1200px) {
+  .customewidth{
+    width: 20% !important;
+  }
   #google_translate_element {
     margin-top: -3px;
     padding-left: 3px;
@@ -2709,6 +2718,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1280px) {
+  .customewidth{
+    width: 20% !important;
+  }
   #google_translate_element {
     padding-left: 0;
     padding-right: 0;
@@ -2811,6 +2823,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1330px) {
+  .customewidth{
+    width: 20% !important;
+  }
   .FontForMarquee {
     font-size: 12px;
   }
@@ -2854,6 +2869,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1331px) and (max-width: 1360px) {
+  .customewidth{
+    width: 20% !important;
+  }
   span.names {
     font-size: 10px;
   }
@@ -2961,6 +2979,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1440px) {
+  .customewidth{
+    width: 20% !important;
+  }
   span.names {
     font-size: 10px;
     justify-content: center;
@@ -4257,7 +4278,5 @@ img.goog-te-gadget-icon {
   .container-xxl {
     max-width: 1600px;
   }
-  .customewidth{
-    width: 20% !important;
-  }
+  
 }
