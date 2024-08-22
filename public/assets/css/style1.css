@@ -82,7 +82,7 @@
   --text-color-accent: #82b1ff;
   --text-color-footer: #b0b0b0;
   --text-color-imp-link: #82b1ff;
-  --text-color-highlight: #777;
+  --text-color-highlight: #eee;
   --text-color-red: #111;
 
   /* Link Colors */
@@ -101,20 +101,18 @@
   --border-color-muted: #3c3c3c;
 }
 
-
-
 /* for red  */
 :root.blue-theme {
   /* Background Colors */
   --background-color-main: #067296;
-  --background-color-secondary: #2a2a2a;
+  --background-color-secondary: #045975;
   --background-color-tertiary: #333333;
-  --background-color-dark: #444;
+  --background-color-dark: #067296;
   --background-color-light: #fff;
-  --background-color-light-muted: #3c3c3c;
+  --background-color-light-muted: #055d7a;
   --background-color-alt: #453e35;
   --background-color-footer: #067296;
-  --background-color-yellow: #ed9d1b;
+  --background-color-yellow: #0093c4;
   --background-color-muted: #2e2e2e;
   --background-color-header: #067296;
   --background-color-card-header: #3a3a3a;
@@ -133,7 +131,7 @@
   --text-color-accent: #82b1ff;
   --text-color-footer: #b0b0b0;
   --text-color-imp-link: #82b1ff;
-  --text-color-highlight: #777;
+  --text-color-highlight: #111;
   --text-color-red: #111;
 
   /* Link Colors */
@@ -637,15 +635,16 @@ th.tbl_heading,
 
 .directoreDesk .card-header {
   background: var(--background-color-light-muted);
-  border-radius: 4px;
+  border-radius: 4px 4px 0 0;
   color: var(--text-color-main);
   margin: 0;
-  padding: 10px 0 0;
+  padding: 10px 0;
   text-align: center;
 }
 .directoreDesk .card-header h4 {
   color: var(--text-color-dark);
   font-size: 20px;
+  margin: 0;
 }
 .dropdown-item {
   color: var(--text-color-secondary);
@@ -690,6 +689,10 @@ th.tbl_heading,
   z-index: 99;
 } */
 
+.fixed-header {
+  background-color: #fff;
+  color: #111;
+}
 .sticky {
   position: fixed;
   top: 0;
@@ -707,6 +710,7 @@ th.tbl_heading,
   font-size: 14px;
   text-align: justify;
   margin-bottom: 0px;
+  min-height: 170px;
 }
 
 .fontForForm,
@@ -841,9 +845,10 @@ th.tbl_heading,
 .marginforzoom {
   margin-right: 5px;
   cursor: pointer;
-  /* width: 28px;
-  height: 26px; */
+  min-width: 26px;
+  min-height: 26px;
   margin-top: 2px;
+  border-radius: 2px;
 }
 .screenReader {
   height: 22px;
@@ -1111,7 +1116,7 @@ ul.contact li span a {
 .logoImg a,
 .logoImg a h3 {
   font-size: 28px;
-  color: var(--text-color-dark);
+  color: #333;
   text-decoration: none;
   margin: auto 10px;
   font-weight: 600;
@@ -1891,17 +1896,18 @@ img.goog-te-gadget-icon {
   font-size: 16px;
 }
 .table-section .card-header h4 {
-  font-size: 22px;
+  font-size: 20px;
   color: var(--text-color-secondary);
   text-align: left;
-  padding: 0px 20px;
+  padding: 0px;
+  margin: 0;
 }
 
 .table-section .card-header {
   /* background: aliceblue; */
   background: var(--background-color-main);
   border-radius: 0;
-  padding: 12px 0 6px;
+  padding: 12px 20px;
   text-align: center;
 }
 
@@ -2054,9 +2060,24 @@ img.goog-te-gadget-icon {
 .card .tab-content {
   padding: 15px 0;
 }
+.ImagesPoliticians {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.customewidth {
+  max-width: 100%;
+}
 
 /* Media Query */
 @media (max-width: 768px) {
+  .ImagesPoliticians {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
   .navbar .nav-item .dropdown-menu {
     width: 100%;
   }
@@ -2168,7 +2189,7 @@ img.goog-te-gadget-icon {
   span.names {
     font-size: 12px;
   }
-  .customewidth{
+  .customewidth {
     width: 50% !important;
   }
   span.names1 {
@@ -2263,12 +2284,12 @@ img.goog-te-gadget-icon {
     padding: 6px;
     width: 181px;
   }
-.footertext {
-  font-size: 13px;
-}
-.footerContainerwidth li a {
-  font-size: 14px;
-}
+  .footertext {
+    font-size: 13px;
+  }
+  .footerContainerwidth li a {
+    font-size: 14px;
+  }
   .HeadFontsize {
     font-size: 1.69em;
   }
@@ -2287,12 +2308,6 @@ img.goog-te-gadget-icon {
   .iconsarrow {
     font-size: 12px;
     margin: 0;
-  }
-
-  .ImagesPoliticians {
-    display: flex;
-    padding-bottom: 10px;
-    margin-top: 10px;
   }
 
   .lastcardImage {
@@ -2427,7 +2442,6 @@ img.goog-te-gadget-icon {
   }
 }
 @media all and (min-width: 992px) {
-  
   .dropdown-menu > li:hover > .submenu,
   .navbar .nav-item:hover .dropdown-menu {
     display: block;
@@ -2451,7 +2465,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1085px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   span.names {
@@ -2604,7 +2618,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1085px) and (max-width: 1200px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   #google_translate_element {
@@ -2718,7 +2732,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1280px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   #google_translate_element {
@@ -2811,8 +2825,6 @@ img.goog-te-gadget-icon {
     font-size: 12px;
     padding: 5px;
   }
-  .title {
-  }
   .news {
     width: 86%;
   }
@@ -2823,7 +2835,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1281px) and (max-width: 1330px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   .FontForMarquee {
@@ -2869,7 +2881,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1331px) and (max-width: 1360px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   span.names {
@@ -2979,7 +2991,7 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1360px) and (max-width: 1440px) {
-  .customewidth{
+  .customewidth {
     width: 20% !important;
   }
   span.names {
@@ -3178,7 +3190,7 @@ img.goog-te-gadget-icon {
   }
   .customewidth {
     width: 50% !important;
-}
+  }
 
   .iconsarrow {
     font-size: 12px;
@@ -3200,7 +3212,7 @@ img.goog-te-gadget-icon {
   }
   .customewidth {
     width: 50% !important;
-}
+  }
   span.names1 {
     color: var(--text-color-secondary);
     display: flex;
@@ -4265,8 +4277,8 @@ img.goog-te-gadget-icon {
 }
 @media (min-width: 992px) {
   .col-lg-2 {
-      flex: 0 0 auto;
-      width: 20% !important;
+    flex: 0 0 auto;
+    width: 20% !important;
   }
 }
 @media (max-width: 1920px) {
@@ -4278,5 +4290,4 @@ img.goog-te-gadget-icon {
   .container-xxl {
     max-width: 1600px;
   }
-  
 }
