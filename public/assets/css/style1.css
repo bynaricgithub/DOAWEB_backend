@@ -490,7 +490,7 @@ th.tbl_heading,
 }
 
 .captionsfonts {
-  color: var(--text-color-secondary);
+  color: var(--text-color-dark);
   display: flex;
   font-size: 14px;
   text-align: center;
@@ -708,9 +708,8 @@ th.tbl_heading,
 .fontForDesk {
   color: var(--text-color-secondary);
   font-size: 14px;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 0px;
-  min-height: 170px;
 }
 
 .fontForForm,
@@ -978,11 +977,9 @@ th.tbl_heading,
 }
 
 .innerCarousalImg img {
-  /*! min-height: 320px; */
   object-fit: fill;
-  max-height: 520px;
+  max-height: 450px;
   width: auto;
-  /* border-radius: 2px; */
   height: 450px;
   border: 3px solid var(--background-color-light);
 }
@@ -990,7 +987,7 @@ th.tbl_heading,
   color: var(--text-color-main);
   font-size: 18px;
   margin-top: 15px;
-  text-align: justify;
+  text-align: left;
   font-weight: 500;
 }
 .innercommTitle {
@@ -1057,10 +1054,12 @@ ul.contact li span a {
   background: var(--background-color-yellow);
   height: auto;
   padding-top: 1px;
+  align-self: center;
 }
 
 .latest-update h5 {
   font-size: 12px;
+  align-self: center;
 }
 
 .link {
@@ -1823,6 +1822,10 @@ img.goog-te-gadget-icon {
 .slide {
   transition: filter 0.4s;
 }
+#carouselExampleControls .carousel-inner {
+  background-color: var(--background-color-light-muted);
+  border-radius: 4px;
+}
 
 .sliderwidth {
   margin: 20px auto;
@@ -2062,20 +2065,49 @@ img.goog-te-gadget-icon {
 }
 .ImagesPoliticians {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  min-height: 230px;
 }
 
-.customewidth {
-  max-width: 100%;
+.dBox {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  min-height: 212px;
 }
 
+.diretorImg {
+  max-width: 220px;
+  text-align: center;
+  padding: 5px 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.diretorImg img {
+  border-radius: 50%;
+  max-height: 120px;
+}
+
+.dDesc {
+  width: 100%;
+  padding: 5px;
+  text-align: left;
+}
+
+.navbar-toggler {
+  border: 1px solid var(--background-color-light);
+  background-color: var(--background-color-card-header);
+}
 /* Media Query */
 @media (max-width: 768px) {
   .ImagesPoliticians {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
   }
 
   .navbar .nav-item .dropdown-menu {
@@ -2175,23 +2207,41 @@ img.goog-te-gadget-icon {
     margin: 6px 6px 6px auto;
   }
 
-  .title {
-  }
-  .news {
-  }
-
   .widthTable td:nth-child(1) {
     width: 29%;
+  }
+  .d-xs-none {
+    display: none;
+  }
+  .logoImg {
+    margin-bottom: 5px;
+  }
+  .logoImg a,
+  .logoImg a h3 {
+    font-size: 21px;
+  }
+  .logoImg a img {
+    height: 90px;
+    width: 90px;
   }
 }
 
 @media (max-width: 512px) {
+  .dBox {
+    display: block;
+    grid-template-columns: 320px 1fr;
+    padding: 15px;
+  }
+  .ImagesPoliticians {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+
   span.names {
     font-size: 12px;
   }
-  .customewidth {
-    width: 50% !important;
-  }
+
   span.names1 {
     font-size: 11px;
   }
@@ -2214,12 +2264,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: var(--text-color-secondary);
-    display: flex;
     font-size: 11px;
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   .carousel-control-next,
@@ -2296,10 +2341,10 @@ img.goog-te-gadget-icon {
 
   .table-section .card-header {
     text-align: left;
+    padding: 10px 15px;
   }
   .table-section .card-header h4 {
-    padding: 8px 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .heighttableDiv {
     height: 350px;
@@ -2323,7 +2368,7 @@ img.goog-te-gadget-icon {
   .latest-update h5 {
     color: var(--text-color-main);
     font-size: 12px;
-    margin: 3px 0;
+    padding: 0 2px;
   }
 
   .link-primary1 {
@@ -2465,9 +2510,6 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1085px) {
-  .customewidth {
-    width: 20% !important;
-  }
   span.names {
     color: var(--text-color-secondary);
     font-size: 12px;
@@ -2578,21 +2620,6 @@ img.goog-te-gadget-icon {
     position: relative;
   }
 
-  .search .fa-search {
-    font-size: 12px;
-    position: absolute;
-    right: 10px;
-    top: 8px;
-  }
-
-  .search input {
-    border-radius: 35px;
-    border: 2px solid var(--border-color-muted);
-    font-size: 12px;
-    height: 24px;
-    width: 120px;
-  }
-
   .social-media li img.rounded-circle {
     margin: 3px;
     width: 13px;
@@ -2618,8 +2645,8 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 1085px) and (max-width: 1200px) {
-  .customewidth {
-    width: 20% !important;
+  .twologo {
+    display: none;
   }
   #google_translate_element {
     margin-top: -3px;
@@ -2693,21 +2720,6 @@ img.goog-te-gadget-icon {
   .search {
     margin-left: -11px;
     position: relative;
-  }
-
-  .search .fa-search {
-    font-size: 12px;
-    position: absolute;
-    right: 10px;
-    top: 8px;
-  }
-
-  .search input {
-    border-radius: 35px;
-    border: 2px solid var(--border-color-muted);
-    font-size: 12px;
-    height: 24px;
-    width: 136px;
   }
 
   .social-media li img.rounded-circle {
@@ -2799,13 +2811,6 @@ img.goog-te-gadget-icon {
     padding-top: 25px;
   }
 
-  .logoImg img {
-    max-height: 80px;
-  }
-  .logoImg a,
-  .logoImg a h3 {
-    font-size: 14px;
-  }
   .search input {
     border-radius: 35px;
   }
@@ -2870,14 +2875,6 @@ img.goog-te-gadget-icon {
     padding-left: 5px;
     padding-top: 25px;
   }
-
-  .search input {
-    border-radius: 35px;
-    border: 2px solid var(--border-color-muted);
-    font-size: 12px;
-    height: 30px;
-    width: 150px;
-  }
 }
 
 @media screen and (min-width: 1331px) and (max-width: 1360px) {
@@ -2897,12 +2894,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: var(--text-color-dark);
-    display: flex;
     font-size: 12px;
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   .carousel-control-next,
@@ -3010,12 +3002,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: var(--text-color-dark);
-    display: flex;
     font-size: 12px;
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0;
   }
 
   .carousel-control-next,
@@ -3417,7 +3404,6 @@ img.goog-te-gadget-icon {
     color: var(--text-color-main);
     font-size: 12px;
     font-weight: 700;
-    margin: 9px 0 0;
   }
 }
 
@@ -3449,12 +3435,7 @@ img.goog-te-gadget-icon {
   }
 
   .captionsfonts {
-    color: var(--text-color-dark);
-    display: flex;
-    font-size: 0.53em;
-    justify-content: center;
-    margin-bottom: 0;
-    margin-top: 0;
+    font-size: 12px;
   }
 
   .dropdown-menu > li:hover > .submenu,
@@ -4167,6 +4148,10 @@ img.goog-te-gadget-icon {
     top: 0px;
     right: 0;
   }
+  .logoImg a,
+  .logoImg a h3 {
+    font-size: 20px;
+  }
   .m-hide {
     display: none !important;
   }
@@ -4207,8 +4192,9 @@ img.goog-te-gadget-icon {
     display: block !important;
   }
   .logoImg img {
-    max-height: 90px !important;
-    width: 90px !important;
+    max-height: 90px;
+    width: 90px;
+    padding: 4px;
   }
   .logoImg3 img {
     width: 80px;
