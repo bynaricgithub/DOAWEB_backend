@@ -314,6 +314,34 @@ th.tbl_heading,
   text-align: left;
 }
 
+#topBack a,
+#topBack {
+  background-color: var(--background-color-main);
+  padding-bottom: 0;
+  padding-top: 0;
+  color: var(--text-color-secondary);
+}
+#topBack ul {
+  display: flex;
+  margin: 0;
+}
+#topBack ul li:nth-child(1) {
+  border-left: 2px solid var(--border-color-secondary);
+}
+#topBack ul li {
+  list-style-type: none;
+  border-right: 2px solid var(--border-color-secondary);
+  padding: 5px 10px;
+  text-align: center;
+  min-width: 45px;
+  align-content: center;
+  font-size: 14px;
+}
+
+.theme-controls .zoom {
+  cursor: pointer;
+}
+
 #back {
   background-color: var(--background-color-main);
   padding-bottom: 0;
@@ -1605,7 +1633,7 @@ img.goog-te-gadget-icon {
 }
 
 .paddingSocialMedia {
-  padding-top: 5px;
+  padding: 10px 0;
   justify-content: end;
 }
 
@@ -1729,7 +1757,9 @@ img.goog-te-gadget-icon {
   border: 2px solid var(--border-color-muted);
   font-size: 13px;
   height: 38px;
-  width: 200px;
+  min-width: 200px;
+  max-width: 300px;
+  width: auto;
 }
 
 .search input:focus {
@@ -1930,9 +1960,8 @@ img.goog-te-gadget-icon {
 }
 
 .social-media li img.rounded-circle {
-  margin: 2px;
-  width: 24px;
-  box-shadow: 0px 1px 2px -1px #20202091;
+  margin: 0 4px;
+  width: 25px;
 }
 
 .swiper-button-next,
