@@ -1100,7 +1100,7 @@ ul.contact li span a {
 }
 
 .link-primary {
-  color: var(--text-color-dark) !important;
+  color: var(--text-color-main) !important;
   font-size: 14px;
   font-weight: 500;
   padding: 0;
