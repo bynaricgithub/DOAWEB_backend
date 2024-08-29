@@ -288,7 +288,7 @@ span.names3 {
 
 table.table.table-bordered.region-table thead.thead-dark th {
   background: var(--background-color-yellow);
-  color: var(--text-color-main);
+  color: var(--text-color-dark) !important;
   text-align: center;
 }
 
@@ -1948,7 +1948,7 @@ img.goog-te-gadget-icon {
 
 .table td,
 .table th {
-  color: var(--text-color-dark);
+  color: var(--text-color-main);
   font-size: 16px;
   font-weight: 500;
 }
