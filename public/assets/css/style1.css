@@ -240,7 +240,7 @@ li.lidt a {
 }
 
 main {
-  padding: 50px 30px;
+  padding: 50px 0px;
   width: 100%;
 }
 
@@ -313,8 +313,13 @@ th.tbl_heading,
   padding: 7px;
   text-align: left;
 }
-
-#topBack a,
+#topBack {
+  border-bottom: 2px solid var(--background-color-header);
+}
+#topBack a {
+  color: var(--text-color-secondary);
+  font-size: 12px;
+}
 #topBack {
   background-color: var(--background-color-main);
   padding-bottom: 0;
@@ -324,6 +329,7 @@ th.tbl_heading,
 #topBack ul {
   display: flex;
   margin: 0;
+  padding: 0;
 }
 #topBack ul li:nth-child(1) {
   border-left: 2px solid var(--border-color-secondary);
@@ -333,11 +339,22 @@ th.tbl_heading,
   border-right: 2px solid var(--border-color-secondary);
   padding: 5px 10px;
   text-align: center;
-  min-width: 45px;
+  min-width: 40px;
   align-content: center;
-  font-size: 14px;
+  font-size: 12px;
+  min-height: 50px;
 }
 
+.skiptranslate iframe {
+  display: none !important;
+}
+#google_translate_element .skiptranslate {
+  display: inherit !important;
+}
+
+body.target {
+  top: 0 !important;
+}
 .theme-controls .zoom {
   cursor: pointer;
 }
@@ -356,12 +373,6 @@ th.tbl_heading,
 
 #dropdownMenuButton1 {
   border-radius: 35px;
-}
-
-#google_translate_element {
-  margin-top: -3px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #imagemain1 {
@@ -982,7 +993,7 @@ th.tbl_heading,
 
 .heightgallery,
 .heighttableDiv {
-  height: 360px;
+  height: 280px;
   padding: 0;
 }
 
@@ -1479,11 +1490,11 @@ body > select.goog-te-combo {
 
 .goog-te-gadget-simple {
   background: var(--background-color-main) !important;
-  padding: 6px 20px !important;
-  border-radius: 20px;
-  font-size: 12px;
+  padding: 4px 6px !important;
+  border-radius: 0 4px 4px 0;
   min-width: 150px;
-  border: 0 !important;
+  border: 1px solid var(--border-color-secondary) !important;
+  border-left: 0 !important;
 }
 
 .goog-te-gadget-simple span {
@@ -1492,15 +1503,23 @@ body > select.goog-te-combo {
   padding: 0px 0px !important;
   font-size: 15px;
 }
-
+iframe table td a {
+  width: 100%;
+  font-size: 14px;
+}
 img.goog-te-gadget-icon {
   display: none;
 }
 
 .translatorBar {
-  padding: 6px 4px;
+  padding: 7px 4px;
   /* background: var(--background-color-accent); */
   text-align: end;
+}
+#google_translate_element {
+  /* margin-top: -3px; */
+  /* padding-left: 10px; */
+  padding-right: 10px;
 }
 
 .news button.btn {
