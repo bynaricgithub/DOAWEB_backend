@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -15,58 +16,82 @@ spec:
     spec:
       containers:
       - name: pods-msbae-deployment
-        image: 056121157689.dkr.ecr.ap-south-1.amazonaws.com/msbae:latest
+        image: localhost:32000/msbae:latest
         imagePullPolicy: Always
         resources:
           requests:
-            memory: "0.5Gi"
-            cpu: "500m"
-          limits:
             memory: "1Gi"
-            cpu: "500m"
+            cpu: "1000m"
+          limits:
+            memory: "1.8Gi"
+            cpu: "1800m"
         volumeMounts:
-         - name: tkiet-production-data
-           mountPath: "/www/public/uploads/"
+         - name: doa-production-data
+           mountPath: "/www/public/data"
         env:
         - name: PROVISIONER_NAME
-          value: efs-storage
+          value: ksemin.in/nfs
         - name: NFS_SERVER
-          value: 192.168.224.128
+          value: 92.204.134.92
         - name: NFS_PATH
-          value: /T01folder
+          value: /
       volumes:
-      - name: tkiet-production-data
+      - name: doa-production-data
         nfs:
-          server: 192.168.224.128
-          path: /
+          server: 92.204.134.92
+          path: /data/apps/doa
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: bynaricexamstudent-service
-  namespace: allagents-1
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    name: msbae-service
+    namespace: msbae
 spec:
   selector:
-    app: bynaricexamstudent
+    app: msbae
   type: ClusterIP
   ports:
     - protocol: TCP
       name: https
       port: 80
       targetPort: 80
+
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+ name: msbae-in-ingress
+ namespace: msbae
+ annotations:
+   cert-manager.io/cluster-issuer: letsencrypt
+spec:
+ ingressClassName: public
+ tls:
+ - hosts:
+   - msbae.in
+   secretName: doa-in-ingress-tls
+ rules:
+ - host: msbae.in
+   http:
+     paths:
+     - backend:
+         service:
+           name: msbae-service
+           port:
+             number: 80
+       path: /
+       pathType: Prefix
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: bynaricexamstudent-hpa
-  namespace: allagents-1
+  name: msbae-hpa
+  namespace: msbae
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: bynaricexamstudent-deployment
+    name: msbae-deployment
   minReplicas: 1
-  maxReplicas: 1
+  maxReplicas: 10
   targetCPUUtilizationPercentage: 70
