@@ -1,97 +1,72 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: doa-deployment
-  namespace: doa
+  name: msbae-deployment
+  namespace: msbae
 spec:
   selector:
     matchLabels:
-      app: doa
+      app: msbae
   replicas: 1
   template:
     metadata:
       labels:
-        app: doa
+        app: msbae
     spec:
       containers:
-      - name: pods-doa-deployment
-        image: localhost:32000/doa:latest
+      - name: pods-msbae-deployment
+        image: 056121157689.dkr.ecr.ap-south-1.amazonaws.com/msbae:latest
         imagePullPolicy: Always
         resources:
           requests:
-            memory: "1Gi"
-            cpu: "1000m"
+            memory: "0.5Gi"
+            cpu: "500m"
           limits:
-            memory: "1.8Gi"
-            cpu: "1800m"
+            memory: "1Gi"
+            cpu: "500m"
         volumeMounts:
-         - name: doa-production-data
-           mountPath: "/www/public/data"
+         - name: tkiet-production-data
+           mountPath: "/www/public/uploads/"
         env:
         - name: PROVISIONER_NAME
-          value: ksemin.in/nfs
+          value: efs-storage
         - name: NFS_SERVER
-          value: 92.204.134.92
+          value: 192.168.224.128
         - name: NFS_PATH
-          value: /
+          value: /T01folder
       volumes:
-      - name: doa-production-data
+      - name: tkiet-production-data
         nfs:
-          server: 92.204.134.92
-          path: /data/apps/doa
+          server: 192.168.224.128
+          path: /
 ---
 apiVersion: v1
 kind: Service
 metadata:
-    name: doa-service
-    namespace: doa
+  name: bynaricexamstudent-service
+  namespace: allagents-1
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
 spec:
   selector:
-    app: doa
+    app: bynaricexamstudent
   type: ClusterIP
   ports:
     - protocol: TCP
       name: https
       port: 80
       targetPort: 80
-
----
-apiVersion: networking.k8s.io/v1
-kind: Ingress
-metadata:
- name: doa-in-ingress
- namespace: doa
- annotations:
-   cert-manager.io/cluster-issuer: letsencrypt
-spec:
- ingressClassName: public
- tls:
- - hosts:
-   - doa.bynaricexam.com
-   secretName: doa-in-ingress-tls
- rules:
- - host: doa.bynaricexam.com
-   http:
-     paths:
-     - backend:
-         service:
-           name: doa-service
-           port:
-             number: 80
-       path: /
-       pathType: Prefix
 ---
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: doa-hpa
-  namespace: doa
+  name: bynaricexamstudent-hpa
+  namespace: allagents-1
 spec:
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: doa-deployment
+    name: bynaricexamstudent-deployment
   minReplicas: 1
-  maxReplicas: 10
+  maxReplicas: 1
   targetCPUUtilizationPercentage: 70
