@@ -21,10 +21,10 @@ spec:
         resources:
           requests:
             memory: "1Gi"
-            cpu: "1000m"
+            cpu: "500m"
           limits:
             memory: "2Gi"
-            cpu: "1800m"
+            cpu: "1000m"
         volumeMounts:
          - name: doa-production-data
            mountPath: "/www/public/data"
