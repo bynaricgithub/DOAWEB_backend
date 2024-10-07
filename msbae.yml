@@ -23,7 +23,7 @@ spec:
             memory: "1Gi"
             cpu: "1000m"
           limits:
-            memory: "1.8Gi"
+            memory: "2Gi"
             cpu: "1800m"
         volumeMounts:
          - name: doa-production-data
