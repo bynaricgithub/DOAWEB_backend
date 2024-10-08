@@ -2351,6 +2351,9 @@ img.goog-te-gadget-icon {
 }
 
 @media (max-width: 512px) {
+  #topBack {
+    display: none;
+  }
   .dBox {
     display: block;
     grid-template-columns: 320px 1fr;
@@ -3317,6 +3320,9 @@ img.goog-te-gadget-icon {
 }
 
 @media screen and (min-width: 368px) and (max-width: 376px) {
+  #topBack {
+    display: none;
+  }
   .counterlink {
     justify-content: center;
   }
