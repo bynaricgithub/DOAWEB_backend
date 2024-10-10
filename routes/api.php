@@ -15,8 +15,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\MapController;
-
-
+use App\Http\Controllers\RegionalOfficeController;
 
 Route::get('/latestUpdates', [LatestUpdateController::class, 'index']);
 Route::get('/photo', [PhotoController::class, 'index']);
@@ -34,4 +33,4 @@ Route::get('/visitor/count', [UserController::class, 'getUserVisitCount']);
 Route::get('/map', [MapController::class, 'index']);
 Route::get('/search', [SearchController::class, 'index']);
 Route::get('/lastUpdateDate', [LatestUpdateController::class, 'getLastUpdateDate']);
-Route::get('/news', [LatestUpdateController::class, 'news']);
+Route::get('/regional-office', [RegionalOfficeController::class, 'index']);
