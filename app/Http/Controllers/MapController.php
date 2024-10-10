@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\LatLongSourceList;
 use App\Models\Map;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
@@ -13,12 +14,12 @@ class MapController extends Controller
     public function index()
     {
         try {
-            $result = DB::select("SELECT * FROM lat_long_source_list");
+            $result = LatLongSourceList::get();
             $result = Map::get();
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {
@@ -28,7 +29,4 @@ class MapController extends Controller
             ], 400);
         }
     }
-   
-    
-    
 }

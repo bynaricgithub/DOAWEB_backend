@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\EventVideo;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
@@ -10,11 +11,11 @@ class EventVidController extends Controller
     public function index()
     {
         try {
-            $result = DB::select("SELECT * FROM event_videos  WHERE status=1");
+            $result = EventVideo::where('status', 1)->get();
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {

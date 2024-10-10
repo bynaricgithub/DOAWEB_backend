@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\LatestUpdate;
+use App\Models\News;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
@@ -10,11 +12,11 @@ class LatestUpdateController extends Controller
     public function news()
     {
         try {
-            $result = DB::select("SELECT * FROM news");
+            $result = News::get();
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data'   => en($result)
                 ], 200);
             }
         } catch (\Exception $e) {
@@ -30,11 +32,11 @@ class LatestUpdateController extends Controller
     public function index()
     {
         try {
-            $result = DB::select("SELECT * FROM latestUpdates  WHERE status=1 and  NOW() between fromDate AND toDate");
+            $result = LatestUpdate::where('status', 1)->where('fromDate', '<=', Carbon::now())->where('toDate', '>=', Carbon::now())->get();
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data'   => en($result)
                 ], 200);
             }
         } catch (\Exception $e) {
@@ -62,10 +64,11 @@ class LatestUpdateController extends Controller
             );
             if ($result) {
                 $date = $result[0]->lastUpdatedDate ? Carbon::createFromFormat('Y-m-d H:i:s', $result[0]->lastUpdatedDate, 'UTC')->getPreciseTimestamp(3) : '';
+
                 return response()->json([
-                    'status'     => 'success',
+                    'status' => 'success',
                     'message' => "Last updated date fetched successfully",
-                    'data'   => $date
+                    'data' => en($date),
                 ], 200);
             }
         } catch (\Exception $e) {

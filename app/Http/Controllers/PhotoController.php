@@ -14,7 +14,7 @@ class PhotoController extends Controller
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {

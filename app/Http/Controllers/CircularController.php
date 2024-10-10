@@ -18,7 +18,7 @@ class CircularController extends Controller
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {
@@ -32,12 +32,12 @@ class CircularController extends Controller
     public function getAll()
     {
         try {
-            $result = DB::select("SELECT * FROM circular ORDER BY `fromDate` DESC");
+            $result = Circular::orderBy('fromDate', 'desc')->get();
             if ($result) {
                 return response()->json([
-                    'status'     => 'success',
+                    'status' => 'success',
                     'message' => "circular list fetched successfully",
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {

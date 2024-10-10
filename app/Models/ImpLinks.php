@@ -10,10 +10,10 @@ class ImpLinks extends Model
     use HasFactory;
     protected $guarded = [];
 
-    protected $table = 'latestUpdates';
-    public static $fields = ['id', 'heading','url','type','fromDate','toDate','created_at','updated_at'];
+    protected $table = 'impLinks';
+    public static $fields = ['id', 'heading', 'url', 'type', 'fromDate', 'toDate', 'status', 'created_at', 'updated_at'];
     public static function getFields()
     {
-      return ImpLinks::$fields;
+        return ImpLinks::$fields;
     }
 }

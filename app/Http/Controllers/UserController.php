@@ -18,7 +18,7 @@ class UserController extends Controller
             return response()->json([
                 'status' => 'success',
                 'message' => 'Visitor Count fetched successfully',
-                'data' => $res
+                'data' => en($res),
             ]);
         } catch (Exception $e) {
             return response()->json([

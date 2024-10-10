@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\HomeMenu;
 use Illuminate\Support\Facades\DB;
 use Carbon\Carbon;
 
@@ -10,11 +11,11 @@ class HomemenuController extends Controller
     public function index()
     {
         try {
-            $result = DB::select("SELECT * FROM homemenu  WHERE status=1");
+            $result = HomeMenu::where('status', 1)->get();
             if ($result) {
                 return response()->json([
                     'status'     => 'success',
-                    'data'   => $result
+                    'data' => en($result),
                 ], 200);
             }
         } catch (\Exception $e) {
